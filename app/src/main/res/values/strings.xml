@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">G-Fit</string>
+    <string name="LOGO">LOGO</string>
+    <string name="project_by_nkanga_richard">project by Nkanga Richard</string>
+    <string name="splash_screen_artwork">splash screen artwork</string>
 </resources>
