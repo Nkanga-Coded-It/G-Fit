@@ -3,4 +3,23 @@
     <string name="LOGO">LOGO</string>
     <string name="project_by_nkanga_richard">project by Nkanga Richard</string>
     <string name="splash_screen_artwork">splash screen artwork</string>
+
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="skip">Skip</string>
+    <string name="cardio_artwork">cardio artwork</string>
+
+    <string name="cardio_exercises">Cardio Exercises</string>
+    <string name="Stretching">Stretching </string>
+    <string name="Calisthenics">Calisthenics </string>
+    <string name="Weight">Weight Lifting</string>
+
+
+
+    <string name="desc_one">Cardiovascular exercise is any intense activity that elevates heart rate and breathing while utilizing big muscle groups in a repeated and rhythmic manner to enhance oxygen and blood flow throughout the body.</string>
+    <string name="desc_two">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+    <string name="desc_three">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+    <string name="desc_four">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+
+
 </resources>
