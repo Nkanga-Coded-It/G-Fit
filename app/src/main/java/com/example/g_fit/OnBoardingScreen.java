@@ -37,7 +37,7 @@ public class OnBoardingScreen extends AppCompatActivity {
         skipBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(OnBoardingScreen.this,MainActivity.class);
+                Intent i = new Intent(OnBoardingScreen.this,GetStartedScreen.class);
                 startActivity(i);
                 finish();
 
@@ -53,7 +53,7 @@ public class OnBoardingScreen extends AppCompatActivity {
 
                 else {
 
-                    Intent i = new Intent(OnBoardingScreen.this,MainActivity.class);
+                    Intent i = new Intent(OnBoardingScreen.this,GetStartedScreen.class);
                     startActivity(i);
                     finish();
 
@@ -92,7 +92,6 @@ public class OnBoardingScreen extends AppCompatActivity {
 
 
         for (int i = 0; i < dots.length;i++){
-
             dots[i] = new TextView(this);
             dots[i].setText(Html.fromHtml("&#8226"));
             dots[i].setTextSize(50);

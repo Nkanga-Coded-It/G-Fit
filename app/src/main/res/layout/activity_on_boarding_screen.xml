@@ -26,13 +26,13 @@
 
     <Button
         android:id="@+id/backbtn"
-        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:background="@drawable/invisible_rectangle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="16dp"
-        android:background="#7AB5A8"
+
         android:text="@string/back"
         android:textColor="#7AB5A8"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -43,7 +43,7 @@
 
     <Button
         android:id="@+id/nextbtn"
-        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:background="@drawable/invisible_rectangle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -51,7 +51,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:layout_toEndOf="@+id/backbtn"
-        android:background="#7AB5A8"
+
         android:text="@string/next"
         android:textColor="#7AB5A8"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -72,7 +72,7 @@
 
     <Button
         android:id="@+id/skipbtn"
-        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:background="@drawable/invisible_rectangle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
