@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GFit">
         <activity
+            android:name=".SignUpScreen"
+            android:exported="false" />
+        <activity
             android:name=".LogInScreen"
             android:exported="true" />
         <activity
@@ -28,7 +31,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".HomeScreen"
             android:exported="true" />
     </application>
 
