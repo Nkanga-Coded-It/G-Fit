@@ -42,7 +42,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/start_your_journey_artwork2" />
+        app:srcCompat="@drawable/start_your_journey_artwork2"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/textView4"
@@ -55,7 +56,7 @@
         android:layout_marginTop="89dp"
         android:layout_marginEnd="106dp"
         android:fontFamily="@font/avenir_next_lt_pro_bold"
-        android:text="START"
+        android:text="@string/start"
         android:textAlignment="viewStart"
         android:textColor="#FFFFFF"
         android:textSize="60sp"
@@ -77,7 +78,7 @@
         android:layout_marginTop="156dp"
         android:layout_marginEnd="61dp"
         android:fontFamily="@font/avenir_next_lt_pro_bold"
-        android:text="YOUR"
+        android:text="@string/your"
         android:textAlignment="viewStart"
         android:textColor="#FFFFFF"
         android:textSize="60sp"
@@ -97,7 +98,7 @@
         android:layout_marginTop="221dp"
         android:layout_marginEnd="91dp"
         android:fontFamily="@font/avenir_next_lt_pro_bold"
-        android:text="JOURNEY."
+        android:text="@string/journey"
         android:textAlignment="viewStart"
         android:textColor="#FFFFFF"
         android:textSize="60sp"
@@ -107,20 +108,20 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="233dp"
-        android:layout_height="51dp"
+        android:id="@+id/getStartedBtn"
+        android:layout_width="275dp"
+        android:layout_height="62dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="80dp"
-        android:layout_marginTop="667dp"
+        android:layout_marginTop="664dp"
         android:layout_marginEnd="81dp"
         android:layout_marginBottom="60dp"
         android:background="@drawable/curved_edge_rectangle"
         android:fontFamily="@font/axis_extrabold"
-        android:text="G E T    S T A R T E D"
+        android:text="@string/g_e_t_s_t_a_r_t_e_d"
         android:textColor="@color/white" />
 
 

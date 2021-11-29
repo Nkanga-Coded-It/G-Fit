@@ -19,6 +19,17 @@
     <string name="desc_two">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
     <string name="desc_three">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
     <string name="desc_four">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+    <string name="start">START</string>
+    <string name="your">YOUR</string>
+    <string name="journey">JOURNEY.</string>
+    <string name="g_e_t_s_t_a_r_t_e_d">G E T S T A R T E D</string>
+    <string name="todo">TODO</string>
+
+    <string name="s_i_g_n_i_n">S i g n i n</string>
+    <string name="dont_have_an_account">Dont have an account?</string>
+    <string name="sign_up_here">Sign Up here.</string>
+    <string name="password">Password</string>
+    <string name="e_mail_address">E-Mail Address</string>
 
 
 </resources>

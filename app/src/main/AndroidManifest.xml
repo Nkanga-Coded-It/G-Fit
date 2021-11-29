@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GFit">
         <activity
+            android:name=".LogInScreen"
+            android:exported="true" />
+        <activity
             android:name=".GetStartedScreen"
             android:exported="true" />
         <activity
