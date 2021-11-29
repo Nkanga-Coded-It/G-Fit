@@ -31,5 +31,12 @@
     <string name="password">Password</string>
     <string name="e_mail_address">E-Mail Address</string>
 
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="s_i_g_n_u_p">S i g n U P</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="sign_in_here">Sign in here.</string>
+
+
 
 </resources>
