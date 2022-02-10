@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Mega\\CodingFiles\\AndroidProjects\\GFit\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ko\\values-ko.xml",
+            "outputFile": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ko\\values-ko.xml",
             "map": [
                 {
                     "source": "C:\\Users\\fredr\\.gradle\\caches\\transforms-3\\b5289ac9a641f59dd763ec5754e962f8\\transformed\\jetified-play-services-base-17.1.0\\res\\values-ko\\values.xml",

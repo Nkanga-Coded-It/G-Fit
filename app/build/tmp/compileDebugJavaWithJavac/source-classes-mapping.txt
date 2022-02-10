@@ -1,7 +1,3 @@
-com/example/g_fit/User.java
- com.example.g_fit.User
-com/example/g_fit/BuildConfig.java
- com.example.g_fit.BuildConfig
 com/example/g_fit/SplashScreen.java
  com.example.g_fit.SplashScreen
  com.example.g_fit.SplashScreen$1
@@ -10,6 +6,10 @@ com/example/g_fit/ViewPagerAdapter.java
 com/example/g_fit/GetStartedScreen.java
  com.example.g_fit.GetStartedScreen
  com.example.g_fit.GetStartedScreen$1
+com/example/g_fit/BuildConfig.java
+ com.example.g_fit.BuildConfig
+com/example/g_fit/User.java
+ com.example.g_fit.User
 com/example/g_fit/SignUpScreen.java
  com.example.g_fit.SignUpScreen
  com.example.g_fit.SignUpScreen$1

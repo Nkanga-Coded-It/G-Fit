@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-38:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\fredr\.gradle\caches\transforms-3\a4db12b072650e13bc36a4fc9443bd47\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\fredr\.gradle\caches\transforms-3\fb168b44b05705a805528f1c42f7e2f6\transformed\constraintlayout-2.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\fredr\.gradle\caches\transforms-3\2fb21fbcddcb4a1a19c9cd01cfb49ddb\transformed\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
@@ -56,25 +56,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fredr\.gradle\ca
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\607ff11b516ddc96487249f810d47dc2\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\e0704842989cea6c82cf2a91963d9437\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\bcde78bc88dd626eb99fc345b357b7d4\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-38:12
 	package
-		ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:3:5-32
-		INJECTED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml
-		ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:2:1-38:12
-		INJECTED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-38:12
+		INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml
-		ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:2:1-38:12
-		INJECTED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-38:12
+		INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:5:5-36:19
+ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:5:5-36:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\fredr\.gradle\caches\transforms-3\a4db12b072650e13bc36a4fc9443bd47\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\fredr\.gradle\caches\transforms-3\a4db12b072650e13bc36a4fc9443bd47\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\fredr\.gradle\caches\transforms-3\fb168b44b05705a805528f1c42f7e2f6\transformed\constraintlayout-2.1.0\AndroidManifest.xml:9:5-20
@@ -104,67 +104,67 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fr
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] C:\Users\fredr\.gradle\caches\transforms-3\a6ed9dfb3abf7d8541f7a1d01bf1d39b\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:11:9-42
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:11:9-42
 activity#com.example.g_fit.SignUpScreen
-ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:12:9-14:40
+ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:12:9-14:40
 	android:exported
-		ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:14:13-37
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:14:13-37
 	android:name
-		ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:13:13-41
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:13:13-41
 activity#com.example.g_fit.LogInScreen
-ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:15:9-17:39
+ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:15:9-17:39
 	android:exported
-		ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:17:13-36
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:16:13-40
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:16:13-40
 activity#com.example.g_fit.GetStartedScreen
-ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:18:9-20:39
+ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:18:9-20:39
 	android:exported
-		ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:20:13-36
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:20:13-36
 	android:name
-		ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:19:13-45
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:19:13-45
 activity#com.example.g_fit.OnBoardingScreen
-ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:21:9-23:39
+ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:21:9-23:39
 	android:exported
-		ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:23:13-36
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:23:13-36
 	android:name
-		ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:22:13-45
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:22:13-45
 activity#com.example.g_fit.SplashScreen
-ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:24:9-32:20
+ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:24:9-32:20
 	android:exported
-		ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:26:13-36
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:26:13-36
 	android:name
-		ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:25:13-41
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:25:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:27:13-31:29
 action#android.intent.action.MAIN
-ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:28:17-69
+ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:30:27-74
 activity#com.example.g_fit.HomeScreen
-ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:33:9-35:39
+ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:33:9-35:39
 	android:exported
-		ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:35:13-36
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:35:13-36
 	android:name
-		ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml:34:13-39
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:34:13-39
 uses-sdk
-INJECTED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml
-INJECTED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\fredr\.gradle\caches\transforms-3\a4db12b072650e13bc36a4fc9443bd47\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\fredr\.gradle\caches\transforms-3\a4db12b072650e13bc36a4fc9443bd47\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\fredr\.gradle\caches\transforms-3\fb168b44b05705a805528f1c42f7e2f6\transformed\constraintlayout-2.1.0\AndroidManifest.xml:5:5-7:41
@@ -269,16 +269,16 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\fredr\.gradle\caches\transform
 MERGED from [androidx.print:print:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\e0704842989cea6c82cf2a91963d9437\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\bcde78bc88dd626eb99fc345b357b7d4\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\bcde78bc88dd626eb99fc345b357b7d4\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-INJECTED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml
-INJECTED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml
-		ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml
-		ADDED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Mega\CodingFiles\AndroidProjects\GFit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\fredr\.gradle\caches\transforms-3\99e33d49eb6cb3c8d9236007e84fbe53\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\fredr\.gradle\caches\transforms-3\84c77abd0e0caaccdb3b7a0007d2b0cd\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:26:5-67
