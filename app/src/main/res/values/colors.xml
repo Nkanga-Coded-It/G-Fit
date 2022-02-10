@@ -13,4 +13,16 @@
     //Indicator Colors
     <color name="inactive">#7AB5A8</color>
     <color name="active">#0F866C</color>
+
+
+
+
+    //nav bar
+    <color name="button_nav_selected_icon">#92DFC5</color>
+    <color name="button_nav_unselected_icon">#A4ADB4</color>
+    <color name="button_nav_selected_text">#92DFC5</color>
+    <color name="button_nav_unselected_text">#A4ADB4</color>
+
+
+
 </resources>

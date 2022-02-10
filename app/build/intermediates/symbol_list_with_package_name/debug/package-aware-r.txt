@@ -1108,6 +1108,10 @@ color browser_actions_text_color
 color browser_actions_title_color
 color button_material_dark
 color button_material_light
+color button_nav_selected_icon
+color button_nav_selected_text
+color button_nav_unselected_icon
+color button_nav_unselected_text
 color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
@@ -1805,6 +1809,8 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable button_nav_icon_color
+drawable button_nav_text_color
 drawable calisthenics
 drawable cardio
 drawable common_full_open_on_phone
@@ -1834,6 +1840,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable exercise
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable home
@@ -2079,6 +2086,7 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id exercise
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -2234,6 +2242,7 @@ id percent
 id pin
 id position
 id postLayout
+id profile
 id progress_circular
 id progress_horizontal
 id radio
@@ -2570,6 +2579,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+menu button_nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
