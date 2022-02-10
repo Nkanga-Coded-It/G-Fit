@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F866C"
+    tools:context=".SplashScreen">
+
+
+    <ImageView
+        android:id="@+id/spashScreen_ArtworK"
+        android:layout_width="413dp"
+        android:layout_height="730dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/splash_screen_artwork"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        app:srcCompat="@drawable/splashscreen_artwork" />
+
+    <ImageView
+        android:id="@+id/g_fit_logo"
+        android:layout_width="178dp"
+        android:layout_height="72dp"
+        android:contentDescription="@string/LOGO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/splashscreen_project_by"
+        android:layout_width="205dp"
+        android:layout_height="18dp"
+        android:contentDescription="@string/project_by_nkanga_richard"
+        app:layout_constraintBottom_toBottomOf="@+id/spashScreen_ArtworK"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/g_fit_logo"
+        app:layout_constraintVertical_bias="0.855"
+        app:srcCompat="@drawable/spalshscreen_project_by" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

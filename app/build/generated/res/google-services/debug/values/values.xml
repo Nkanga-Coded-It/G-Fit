@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">751087350316-7vl2ksss5ub383ods1kc1qks645dr4et.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://gfit-login-screen-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">751087350316</string>
+    <string name="google_api_key" translatable="false">AIzaSyAYFsXP6n3k6qu4c9NOw45HTGS2X6hciBY</string>
+    <string name="google_app_id" translatable="false">1:751087350316:android:ab6ab0e768753ca6e31789</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAYFsXP6n3k6qu4c9NOw45HTGS2X6hciBY</string>
+    <string name="google_storage_bucket" translatable="false">gfit-login-screen.appspot.com</string>
+    <string name="project_id" translatable="false">gfit-login-screen</string>
+</resources>

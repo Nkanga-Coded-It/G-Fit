@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpScreen">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="283dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="91dp"
+        android:fontFamily="@font/source_sanspro_bold"
+        android:text="SIGN UP FOR A"
+        android:textColor="#42505E"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="283dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="91dp"
+        android:fontFamily="@font/source_sanspro_bold"
+        android:text="NEW ACCOUNT."
+        android:textColor="#42505E"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/suEmail"
+        android:layout_width="349dp"
+        android:layout_height="58dp"
+        android:background="@drawable/custom_text_box"
+        android:ems="10"
+        android:paddingStart="16dp"
+        android:fontFamily="sans-serif"
+        android:hint="@string/e_mail_address"
+        android:inputType="textEmailAddress"
+        android:textAlignment="viewStart"
+        app:layout_constraintBottom_toTopOf="@+id/suPassword"
+        app:layout_constraintEnd_toEndOf="@+id/suAge"
+        app:layout_constraintStart_toStartOf="@+id/suAge"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.928"
+        tools:ignore="TextContrastCheck"
+         />
+
+    <EditText
+        android:id="@+id/suPassword"
+        android:layout_width="349dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="256dp"
+        android:background="@drawable/custom_text_box"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingStart="16dp"
+        android:textAlignment="textStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/suEmail"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/suEmail"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/suButton"
+        android:layout_width="348dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="116dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="monospace"
+        android:text="@string/s_i_g_n_u_p"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/suPassword"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/suPassword" />
+
+    <TextView
+        android:id="@+id/siPageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginBottom="52dp"
+        android:text="@string/sign_in_here"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="@+id/suButton" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="52dp"
+        android:text="@string/already_have_an_account"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/suButton" />
+
+    <EditText
+        android:id="@+id/suName"
+        android:layout_width="349dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/custom_text_box"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:paddingStart="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/suAge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/suAge"
+        android:layout_width="349dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/custom_text_box"
+        android:ems="10"
+        android:hint="@string/age"
+        android:inputType="textPersonName"
+        android:paddingStart="16dp"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/suEmail"
+        app:layout_constraintEnd_toEndOf="@+id/suName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/suName"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="TextContrastCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

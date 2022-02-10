@@ -1,0 +1,33 @@
+com/example/g_fit/User.java
+ com.example.g_fit.User
+com/example/g_fit/BuildConfig.java
+ com.example.g_fit.BuildConfig
+com/example/g_fit/SplashScreen.java
+ com.example.g_fit.SplashScreen
+ com.example.g_fit.SplashScreen$1
+com/example/g_fit/ViewPagerAdapter.java
+ com.example.g_fit.ViewPagerAdapter
+com/example/g_fit/GetStartedScreen.java
+ com.example.g_fit.GetStartedScreen
+ com.example.g_fit.GetStartedScreen$1
+com/example/g_fit/SignUpScreen.java
+ com.example.g_fit.SignUpScreen
+ com.example.g_fit.SignUpScreen$1
+ com.example.g_fit.SignUpScreen$2
+ com.example.g_fit.SignUpScreen$2$1
+ com.example.g_fit.SignUpScreen$2$1$1
+com/example/g_fit/OnBoardingScreen.java
+ com.example.g_fit.OnBoardingScreen
+ com.example.g_fit.OnBoardingScreen$1
+ com.example.g_fit.OnBoardingScreen$2
+ com.example.g_fit.OnBoardingScreen$3
+ com.example.g_fit.OnBoardingScreen$4
+com/example/g_fit/LogInScreen.java
+ com.example.g_fit.LogInScreen
+ com.example.g_fit.LogInScreen$1
+ com.example.g_fit.LogInScreen$2
+ com.example.g_fit.LogInScreen$2$1
+ com.example.g_fit.LogInScreen$3
+com/example/g_fit/HomeScreen.java
+ com.example.g_fit.HomeScreen
+ com.example.g_fit.HomeScreen$1
