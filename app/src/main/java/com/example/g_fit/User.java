@@ -5,8 +5,14 @@ public class User {
     public String email,password, age, name;
 
 
+
     public User() {
     }
+
+
+
+
+
 
     public String getEmail() {
         return email;
@@ -49,6 +55,25 @@ public class User {
 
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     //    public User(String email, String password) {
 //        this.email = email;

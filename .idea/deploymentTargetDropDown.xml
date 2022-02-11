@@ -12,18 +12,8 @@
         </deviceKey>
       </Target>
     </targetSelectedWithDropDown>
-    <timeTargetWasSelectedWithDropDown value="2022-02-10T06:11:32.119687500Z" />
-    <multipleDevicesSelectedInDropDown value="true" />
+    <timeTargetWasSelectedWithDropDown value="2022-02-11T07:26:37.954656300Z" />
     <runningDeviceTargetsSelectedWithDialog>
-      <Target>
-        <type value="RUNNING_DEVICE_TARGET" />
-        <deviceKey>
-          <Key>
-            <type value="VIRTUAL_DEVICE_PATH" />
-            <value value="C:\Users\fredr\.android\avd\Pixel_2_API_30.avd" />
-          </Key>
-        </deviceKey>
-      </Target>
       <Target>
         <type value="RUNNING_DEVICE_TARGET" />
         <deviceKey>
@@ -35,15 +25,6 @@
       </Target>
     </runningDeviceTargetsSelectedWithDialog>
     <targetsSelectedWithDialog>
-      <Target>
-        <type value="QUICK_BOOT_TARGET" />
-        <deviceKey>
-          <Key>
-            <type value="VIRTUAL_DEVICE_PATH" />
-            <value value="C:\Users\fredr\.android\avd\Pixel_2_API_30.avd" />
-          </Key>
-        </deviceKey>
-      </Target>
       <Target>
         <type value="QUICK_BOOT_TARGET" />
         <deviceKey>

@@ -1,58 +1,65 @@
 package com.example.g_fit;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.g_fit.databinding.ActivityHomescreenBinding;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class HomeScreen extends AppCompatActivity {
 
 
-    TextView users_email,user_name;
-    Button mLogout;
-    FirebaseAuth mAuth;
+    ActivityHomescreenBinding binding;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_homescreen);
+        binding = ActivityHomescreenBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
+        binding.bottomNavigationView.setOnItemSelectedListener(item -> {
+
+            switch (item.getItemId()){
+
+                case R.id.home:
+                    replaceFragment(new HomeNavFragment());
+                    break;
+                case R.id.exercise:
+                    replaceFragment(new ExerciseNavFragment());
+                    break;
+                case R.id.profile:
+                    replaceFragment(new ProfileNavFragment());
+                    break;
+            }
+
+          return  true;
+        });
 
 
 
-        users_email = findViewById(R.id.useremail);
-        mLogout = findViewById(R.id.logout_button);
-        user_name = findViewById(R.id.username);
-        mAuth = FirebaseAuth.getInstance();
+
     }
+        private void replaceFragment(Fragment fragment){
+
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+            fragmentTransaction.replace(R.id.frame_layout,fragment );
+            fragmentTransaction.commit();
 
 
-    @Override
-    public void onStart() {
-        super.onStart();
-        // Check if user is signed in (non-null) and update UI accordingly.
-        FirebaseUser currentUser = mAuth.getCurrentUser();
-        if (currentUser != null) {
-            users_email.setText(currentUser.getEmail());
-            user_name.setText(currentUser.getDisplayName());
         }
 
 
-        mLogout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                users_email.setText("Working");
-                FirebaseAuth.getInstance().signOut();
-                Intent intent = new Intent(HomeScreen.this, LogInScreen.class);
-                startActivity(intent);
-            }
-        });
 
-    }
 }

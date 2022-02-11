@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GFit">
         <activity
+            android:name=".ExercisePage"
+            android:exported="false" />
+        <activity
             android:name=".SignUpScreen"
             android:exported="false" />
         <activity

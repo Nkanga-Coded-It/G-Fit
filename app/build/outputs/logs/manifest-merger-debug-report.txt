@@ -1,14 +1,17 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-41:12
+MERGED from [androidx.databinding:viewbinding:7.0.0] C:\Users\fredr\.gradle\caches\transforms-3\890ead7a225e8e8adbabf1126908806d\transformed\jetified-viewbinding-7.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\fredr\.gradle\caches\transforms-3\6c911914c1222f9734997a07801d2bb6\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\fredr\.gradle\caches\transforms-3\a4db12b072650e13bc36a4fc9443bd47\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\fredr\.gradle\caches\transforms-3\fb168b44b05705a805528f1c42f7e2f6\transformed\constraintlayout-2.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\fredr\.gradle\caches\transforms-3\2fb21fbcddcb4a1a19c9cd01cfb49ddb\transformed\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\fredr\.gradle\caches\transforms-3\99e33d49eb6cb3c8d9236007e84fbe53\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:17:1-83:12
 MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\fredr\.gradle\caches\transforms-3\84c77abd0e0caaccdb3b7a0007d2b0cd\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:15:1-38:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\249b2ca2595015eb36b75fe22c71b0a5\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\11108c40f6b4b45114902fb5915eea42\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\fredr\.gradle\caches\transforms-3\4c85c356f92b73b2caf8ebde0606e00e\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\fredr\.gradle\caches\transforms-3\bbd0db670b9e967ac2d81e2396acc52e\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
@@ -30,8 +33,9 @@ MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\fredr\.g
 MERGED from [androidx.transition:transition:1.2.0] C:\Users\fredr\.gradle\caches\transforms-3\06e956728079b62473f9071c0ed43744\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\fredr\.gradle\caches\transforms-3\fdd32f901d4bb1d5d33bddeb84a905c7\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\fredr\.gradle\caches\transforms-3\29de5575f9927728f2259ca80dea1987\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\5b6087d2a888dc8cd66652dafdfd98d8\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\cabc7bf9fcd04c9bc88fe0c2ed8f8af4\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\dbc66d810aadfcbae204aa9f2c96beac\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\5b6087d2a888dc8cd66652dafdfd98d8\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\2f7c01c10d3d7134859f80fe1123d2f3\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\fredr\.gradle\caches\transforms-3\b00d5cc1ee2b8898b26695c875041071\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\dbe6632ea1830f7b528d4645a38df2bc\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -56,25 +60,27 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fredr\.gradle\ca
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\607ff11b516ddc96487249f810d47dc2\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\e0704842989cea6c82cf2a91963d9437\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\bcde78bc88dd626eb99fc345b357b7d4\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-41:12
 	package
 		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:3:5-32
 		INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-38:12
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-38:12
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:5:5-36:19
+ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:5:5-39:19
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\fredr\.gradle\caches\transforms-3\6c911914c1222f9734997a07801d2bb6\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\fredr\.gradle\caches\transforms-3\6c911914c1222f9734997a07801d2bb6\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\fredr\.gradle\caches\transforms-3\a4db12b072650e13bc36a4fc9443bd47\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\fredr\.gradle\caches\transforms-3\a4db12b072650e13bc36a4fc9443bd47\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\fredr\.gradle\caches\transforms-3\fb168b44b05705a805528f1c42f7e2f6\transformed\constraintlayout-2.1.0\AndroidManifest.xml:9:5-20
@@ -115,56 +121,66 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fr
 		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:11:9-42
-activity#com.example.g_fit.SignUpScreen
+activity#com.example.g_fit.ExercisePage
 ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:12:9-14:40
 	android:exported
 		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:14:13-37
 	android:name
 		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:13:13-41
-activity#com.example.g_fit.LogInScreen
-ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:15:9-17:39
+activity#com.example.g_fit.SignUpScreen
+ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:15:9-17:40
 	android:exported
-		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:17:13-36
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:16:13-40
-activity#com.example.g_fit.GetStartedScreen
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:16:13-41
+activity#com.example.g_fit.LogInScreen
 ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:18:9-20:39
 	android:exported
 		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:20:13-36
 	android:name
-		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:19:13-45
-activity#com.example.g_fit.OnBoardingScreen
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:19:13-40
+activity#com.example.g_fit.GetStartedScreen
 ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:21:9-23:39
 	android:exported
 		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:23:13-36
 	android:name
 		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:22:13-45
-activity#com.example.g_fit.SplashScreen
-ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:24:9-32:20
+activity#com.example.g_fit.OnBoardingScreen
+ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:24:9-26:39
 	android:exported
 		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:26:13-36
 	android:name
-		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:25:13-41
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:27:13-31:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:28:17-69
-	android:name
-		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:28:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:30:17-77
-	android:name
-		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:30:27-74
-activity#com.example.g_fit.HomeScreen
-ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:33:9-35:39
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:25:13-45
+activity#com.example.g_fit.SplashScreen
+ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:27:9-35:20
 	android:exported
-		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:35:13-36
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:29:13-36
 	android:name
-		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:34:13-39
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:28:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:30:13-34:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:33:27-74
+activity#com.example.g_fit.HomeScreen
+ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:36:9-38:39
+	android:exported
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:38:13-36
+	android:name
+		ADDED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml:37:13-39
 uses-sdk
 INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\fredr\Downloads\projects\G-Fit\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.0.0] C:\Users\fredr\.gradle\caches\transforms-3\890ead7a225e8e8adbabf1126908806d\transformed\jetified-viewbinding-7.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.0] C:\Users\fredr\.gradle\caches\transforms-3\890ead7a225e8e8adbabf1126908806d\transformed\jetified-viewbinding-7.0.0\AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\fredr\.gradle\caches\transforms-3\6c911914c1222f9734997a07801d2bb6\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\fredr\.gradle\caches\transforms-3\6c911914c1222f9734997a07801d2bb6\transformed\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\fredr\.gradle\caches\transforms-3\a4db12b072650e13bc36a4fc9443bd47\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\fredr\.gradle\caches\transforms-3\a4db12b072650e13bc36a4fc9443bd47\transformed\material-1.4.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] C:\Users\fredr\.gradle\caches\transforms-3\fb168b44b05705a805528f1c42f7e2f6\transformed\constraintlayout-2.1.0\AndroidManifest.xml:5:5-7:41
@@ -175,6 +191,8 @@ MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\fredr\.gradle\ca
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\fredr\.gradle\caches\transforms-3\99e33d49eb6cb3c8d9236007e84fbe53\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\fredr\.gradle\caches\transforms-3\84c77abd0e0caaccdb3b7a0007d2b0cd\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-database:20.0.2] C:\Users\fredr\.gradle\caches\transforms-3\84c77abd0e0caaccdb3b7a0007d2b0cd\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\249b2ca2595015eb36b75fe22c71b0a5\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\249b2ca2595015eb36b75fe22c71b0a5\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\11108c40f6b4b45114902fb5915eea42\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\11108c40f6b4b45114902fb5915eea42\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\fredr\.gradle\caches\transforms-3\4c85c356f92b73b2caf8ebde0606e00e\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
@@ -217,10 +235,12 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\fre
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\fredr\.gradle\caches\transforms-3\fdd32f901d4bb1d5d33bddeb84a905c7\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\fredr\.gradle\caches\transforms-3\29de5575f9927728f2259ca80dea1987\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\fredr\.gradle\caches\transforms-3\29de5575f9927728f2259ca80dea1987\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\5b6087d2a888dc8cd66652dafdfd98d8\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\5b6087d2a888dc8cd66652dafdfd98d8\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\cabc7bf9fcd04c9bc88fe0c2ed8f8af4\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\cabc7bf9fcd04c9bc88fe0c2ed8f8af4\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\dbc66d810aadfcbae204aa9f2c96beac\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\dbc66d810aadfcbae204aa9f2c96beac\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\5b6087d2a888dc8cd66652dafdfd98d8\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\5b6087d2a888dc8cd66652dafdfd98d8\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\2f7c01c10d3d7134859f80fe1123d2f3\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\fredr\.gradle\caches\transforms-3\2f7c01c10d3d7134859f80fe1123d2f3\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\fredr\.gradle\caches\transforms-3\b00d5cc1ee2b8898b26695c875041071\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
