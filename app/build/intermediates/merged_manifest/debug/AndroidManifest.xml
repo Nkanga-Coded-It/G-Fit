@@ -22,6 +22,21 @@
         android:testOnly="true"
         android:theme="@style/Theme.GFit" >
         <activity
+            android:name="com.example.g_fit.MeditationExercise"
+            android:exported="false" />
+        <activity
+            android:name="com.example.g_fit.ExerciseWithEquipments"
+            android:exported="false" />
+        <activity
+            android:name="com.example.g_fit.ExercsieWithAPartner"
+            android:exported="false" />
+        <activity
+            android:name="com.example.g_fit.CardioExercise"
+            android:exported="false" />
+        <activity
+            android:name="com.example.g_fit.FullBodyExercise"
+            android:exported="false" />
+        <activity
             android:name="com.example.g_fit.ExercisePage"
             android:exported="false" />
         <activity

@@ -1823,6 +1823,7 @@ drawable button_nav_text_color
 drawable calisthenics
 drawable cardio
 drawable cardio_card
+drawable cardio_cycle
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1853,6 +1854,7 @@ drawable design_snackbar_background
 drawable equipment_card
 drawable equipments
 drawable exercise
+drawable fullbody_card
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable home
@@ -1906,6 +1908,7 @@ drawable partners_card
 drawable profile
 drawable pushup
 drawable rectangle
+drawable running
 drawable situp
 drawable spalshscreen_project_by
 drawable splashscreen_artwork
@@ -1917,6 +1920,7 @@ drawable sunset
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable vase
 drawable weight_lifting
 font avenir_next_lt_pro_bold
 font axis_extrabold
@@ -2114,7 +2118,7 @@ id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
-id equipment_card
+id equipmentCard
 id exercise
 id exercise_difficulty
 id exercise_image
@@ -2164,6 +2168,9 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView3
+id imageView4
+id imageView5
 id image_of_workout
 id immediateStop
 id included
@@ -2185,6 +2192,7 @@ id line1
 id line3
 id linear
 id linearLayout
+id linearLayout3
 id listMode
 id list_item
 id logout_button
@@ -2401,9 +2409,20 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView10
 id textView11
 id textView12
+id textView13
+id textView14
+id textView15
+id textView16
+id textView17
+id textView18
+id textView19
 id textView2
+id textView20
+id textView21
+id textView22
 id textView3
 id textView4
 id textView5
@@ -2534,10 +2553,15 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_cardio_exercise
 layout activity_exercise_page
+layout activity_exercise_with_equipments
+layout activity_exercsie_with_apartner
+layout activity_full_body_workout
 layout activity_get_started_screen
 layout activity_homescreen
 layout activity_log_in_screen
+layout activity_meditation_exercise
 layout activity_on_boarding_screen
 layout activity_sign_up_screen
 layout activity_splash_screen

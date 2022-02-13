@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_running.png.flat",
+        "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-xxxhdpi\\running.png"
+    },
+    {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_home.png.flat",
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-xhdpi\\home.png"
     },
@@ -72,6 +76,18 @@
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\menu\\button_nav_menu.xml"
     },
     {
+        "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_vase.png.flat",
+        "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-xxxhdpi\\vase.png"
+    },
+    {
+        "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_cardio_cycle.png.flat",
+        "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-mdpi\\cardio_cycle.png"
+    },
+    {
+        "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_exercsie_with_apartner.xml.flat",
+        "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\layout\\activity_exercsie_with_apartner.xml"
+    },
+    {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_cardio.png.flat",
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-mdpi\\cardio.png"
     },
@@ -102,6 +118,10 @@
     {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_sunset.png.flat",
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-xxxhdpi\\sunset.png"
+    },
+    {
+        "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_full_body_workout.xml.flat",
+        "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\layout\\activity_full_body_workout.xml"
     },
     {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_stretching.png.flat",
@@ -136,6 +156,10 @@
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-xxxhdpi\\meditate.png"
     },
     {
+        "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_cardio_cycle.png.flat",
+        "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-xxhdpi\\cardio_cycle.png"
+    },
+    {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable_partners_card.xml.flat",
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable\\partners_card.xml"
     },
@@ -160,6 +184,10 @@
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cardio_exercise.xml.flat",
+        "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\layout\\activity_cardio_exercise.xml"
+    },
+    {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
@@ -180,6 +208,10 @@
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-xhdpi\\situp.png"
     },
     {
+        "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_exercise_with_equipments.xml.flat",
+        "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\layout\\activity_exercise_with_equipments.xml"
+    },
+    {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_pushup.png.flat",
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-xxxhdpi\\pushup.png"
     },
@@ -192,8 +224,16 @@
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-ldpi\\meditate.png"
     },
     {
+        "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_running.png.flat",
+        "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-mdpi\\running.png"
+    },
+    {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_meditate.png.flat",
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-xhdpi\\meditate.png"
+    },
+    {
+        "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_vase.png.flat",
+        "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-xxhdpi\\vase.png"
     },
     {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
@@ -214,6 +254,10 @@
     {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable_cardio_card.xml.flat",
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable\\cardio_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_running.png.flat",
+        "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-xxhdpi\\running.png"
     },
     {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -268,6 +312,10 @@
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-ldpi\\calisthenics.png"
     },
     {
+        "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_meditation_exercise.xml.flat",
+        "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\layout\\activity_meditation_exercise.xml"
+    },
+    {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_start_your_journey_artwork2.png.flat",
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-hdpi\\start_your_journey_artwork2.png"
     },
@@ -304,6 +352,10 @@
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-xxxhdpi\\equipments.png"
     },
     {
+        "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_running.png.flat",
+        "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-ldpi\\running.png"
+    },
+    {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_start_your_journey_artwork.png.flat",
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-ldpi\\start_your_journey_artwork.png"
     },
@@ -314,6 +366,10 @@
     {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_stretching.png.flat",
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-ldpi\\stretching.png"
+    },
+    {
+        "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_vase.png.flat",
+        "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-hdpi\\vase.png"
     },
     {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_partners.png.flat",
@@ -338,6 +394,10 @@
     {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_custom_text_box.xml.flat",
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-hdpi\\custom_text_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_cardio_cycle.png.flat",
+        "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-hdpi\\cardio_cycle.png"
     },
     {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_meditate.png.flat",
@@ -372,8 +432,16 @@
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
+        "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_cardio_cycle.png.flat",
+        "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-ldpi\\cardio_cycle.png"
+    },
+    {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_sunset.png.flat",
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-xhdpi\\sunset.png"
+    },
+    {
+        "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_vase.png.flat",
+        "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-mdpi\\vase.png"
     },
     {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sign_up_screen.xml.flat",
@@ -392,6 +460,10 @@
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-xxhdpi\\calisthenics.png"
     },
     {
+        "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_vase.png.flat",
+        "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-ldpi\\vase.png"
+    },
+    {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_situp.png.flat",
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-ldpi\\situp.png"
     },
@@ -406,6 +478,10 @@
     {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_sunset.png.flat",
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-hdpi\\sunset.png"
+    },
+    {
+        "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_running.png.flat",
+        "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-xhdpi\\running.png"
     },
     {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_stretching.png.flat",
@@ -456,6 +532,10 @@
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-xxhdpi\\start_your_journey_artwork.png"
     },
     {
+        "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_cardio_cycle.png.flat",
+        "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-xxxhdpi\\cardio_cycle.png"
+    },
+    {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_profile.png.flat",
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-xxhdpi\\profile.png"
     },
@@ -476,12 +556,20 @@
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-xxxhdpi\\cardio.png"
     },
     {
+        "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_cardio_cycle.png.flat",
+        "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-xhdpi\\cardio_cycle.png"
+    },
+    {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\layout_slider_layout.xml.flat",
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\layout\\slider_layout.xml"
     },
     {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_meditate.png.flat",
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-mdpi\\meditate.png"
+    },
+    {
+        "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable_fullbody_card.xml.flat",
+        "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable\\fullbody_card.xml"
     },
     {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\font_avenir_next_lt_pro_bold.otf.flat",
@@ -494,6 +582,10 @@
     {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_calisthenics.png.flat",
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-xxxhdpi\\calisthenics.png"
+    },
+    {
+        "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_vase.png.flat",
+        "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-xhdpi\\vase.png"
     },
     {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_situp.png.flat",
@@ -618,6 +710,10 @@
     {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_profile.png.flat",
         "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-xxxhdpi\\profile.png"
+    },
+    {
+        "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_running.png.flat",
+        "source": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\src\\main\\res\\drawable-hdpi\\running.png"
     },
     {
         "merged": "C:\\Users\\fredr\\Downloads\\projects\\G-Fit\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_cardio.png.flat",

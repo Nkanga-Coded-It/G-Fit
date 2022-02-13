@@ -1822,6 +1822,7 @@ int drawable button_nav_text_color 0x7f070061
 int drawable calisthenics 0x7f070062
 int drawable cardio 0x7f070063
 int drawable cardio_card 0x7f070064
+int drawable cardio_cycle 0x7f0700c4
 int drawable common_full_open_on_phone 0x7f070065
 int drawable common_google_signin_btn_icon_dark 0x7f070066
 int drawable common_google_signin_btn_icon_dark_focused 0x7f070067
@@ -1852,6 +1853,7 @@ int drawable design_snackbar_background 0x7f07007f
 int drawable equipment_card 0x7f070080
 int drawable equipments 0x7f070081
 int drawable exercise 0x7f070082
+int drawable fullbody_card 0x7f0700c6
 int drawable googleg_disabled_color_18 0x7f070083
 int drawable googleg_standard_color_18 0x7f070084
 int drawable home 0x7f070085
@@ -1905,6 +1907,7 @@ int drawable partners_card 0x7f0700b4
 int drawable profile 0x7f0700b5
 int drawable pushup 0x7f0700b6
 int drawable rectangle 0x7f0700b7
+int drawable running 0x7f0700c7
 int drawable situp 0x7f0700b8
 int drawable spalshscreen_project_by 0x7f0700b9
 int drawable splashscreen_artwork 0x7f0700ba
@@ -1916,6 +1919,7 @@ int drawable sunset 0x7f0700c3
 int drawable test_custom_background 0x7f0700bf
 int drawable tooltip_frame_dark 0x7f0700c0
 int drawable tooltip_frame_light 0x7f0700c1
+int drawable vase 0x7f0700c5
 int drawable weight_lifting 0x7f0700c2
 int font avenir_next_lt_pro_bold 0x7f080000
 int font axis_extrabold 0x7f080001
@@ -2113,7 +2117,7 @@ int id endToStart 0x7f0900bc
 int id end_padder 0x7f0900bd
 int id enterAlways 0x7f0900be
 int id enterAlwaysCollapsed 0x7f0900bf
-int id equipment_card 0x7f0900c0
+int id equipmentCard 0x7f09022a
 int id exercise 0x7f0900c1
 int id exercise_difficulty 0x7f0900c2
 int id exercise_image 0x7f0900c3
@@ -2163,6 +2167,9 @@ int id ignore 0x7f0900ee
 int id ignoreRequest 0x7f0900ef
 int id image 0x7f0900f0
 int id imageView 0x7f0900f1
+int id imageView3 0x7f090222
+int id imageView4 0x7f090223
+int id imageView5 0x7f090227
 int id image_of_workout 0x7f0900f2
 int id immediateStop 0x7f0900f3
 int id included 0x7f0900f4
@@ -2184,6 +2191,7 @@ int id line1 0x7f090103
 int id line3 0x7f090104
 int id linear 0x7f090105
 int id linearLayout 0x7f090106
+int id linearLayout3 0x7f090220
 int id listMode 0x7f090107
 int id list_item 0x7f090108
 int id logout_button 0x7f090109
@@ -2400,9 +2408,20 @@ int id textSpacerNoTitle 0x7f0901db
 int id textStart 0x7f0901dc
 int id textTop 0x7f0901dd
 int id textView 0x7f0901de
+int id textView10 0x7f09022b
 int id textView11 0x7f09021e
 int id textView12 0x7f09021f
+int id textView13 0x7f090221
+int id textView14 0x7f090224
+int id textView15 0x7f090225
+int id textView16 0x7f090226
+int id textView17 0x7f090228
+int id textView18 0x7f090229
+int id textView19 0x7f09022c
 int id textView2 0x7f0901df
+int id textView20 0x7f09022d
+int id textView21 0x7f09022e
+int id textView22 0x7f09022f
 int id textView3 0x7f0901e0
 int id textView4 0x7f0901e1
 int id textView5 0x7f0901e2
@@ -2533,10 +2552,15 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0c0018
 int layout abc_search_view 0x7f0c0019
 int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
+int layout activity_cardio_exercise 0x7f0c0088
 int layout activity_exercise_page 0x7f0c001c
+int layout activity_exercise_with_equipments 0x7f0c0089
+int layout activity_exercsie_with_apartner 0x7f0c008a
+int layout activity_full_body_workout 0x7f0c0087
 int layout activity_get_started_screen 0x7f0c001d
 int layout activity_homescreen 0x7f0c001e
 int layout activity_log_in_screen 0x7f0c001f
+int layout activity_meditation_exercise 0x7f0c008b
 int layout activity_on_boarding_screen 0x7f0c0020
 int layout activity_sign_up_screen 0x7f0c0021
 int layout activity_splash_screen 0x7f0c0022

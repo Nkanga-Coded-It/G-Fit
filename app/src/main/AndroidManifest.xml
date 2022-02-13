@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GFit">
         <activity
+            android:name=".MeditationExercise"
+            android:exported="false" />
+        <activity
+            android:name=".ExerciseWithEquipments"
+            android:exported="false" />
+        <activity
+            android:name=".ExercsieWithAPartner"
+            android:exported="false" />
+        <activity
+            android:name=".CardioExercise"
+            android:exported="false" />
+        <activity
+            android:name=".FullBodyExercise"
+            android:exported="false" />
+        <activity
             android:name=".ExercisePage"
             android:exported="false" />
         <activity

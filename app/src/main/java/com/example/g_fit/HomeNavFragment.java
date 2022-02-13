@@ -1,19 +1,17 @@
 package com.example.g_fit;
 
-import android.graphics.Color;
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import com.google.firebase.auth.FirebaseAuth;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -31,6 +29,7 @@ public class HomeNavFragment extends Fragment {
     TextView greeting ;
     ImageView symbol;
     Drawable drawable;
+    ConstraintLayout mFullBody;
 
 
 
@@ -46,6 +45,61 @@ public class HomeNavFragment extends Fragment {
         greeting = (TextView) view.findViewById(R.id.greeting);
         symbol = (ImageView) view.findViewById(R.id.hourOfTheDay);
         currentDate.setText(getCurrentDay());
+
+
+        view.findViewById(R.id.fullBody_card).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(getActivity(), FullBodyExercise.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+        view.findViewById(R.id.meditateCard).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(getActivity(), MeditationExercise.class);
+                startActivity(intent);
+
+            }
+        });
+
+        view.findViewById(R.id.cardioCard).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(getActivity(), CardioExercise.class);
+                startActivity(intent);
+
+            }
+        });
+
+        view.findViewById(R.id.partnerCard).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(getActivity(), ExercsieWithAPartner.class);
+                startActivity(intent);
+
+            }
+        });
+
+        view.findViewById(R.id.equipmentCard).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(getActivity(), ExerciseWithEquipments.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+
 
 
 
@@ -96,9 +150,16 @@ public class HomeNavFragment extends Fragment {
 
     }
 
+
+
+
     private static String getCurrentDay() {
 
         return new SimpleDateFormat("EEE,dd MMM ", Locale.getDefault()).format(new Date());
+
+
+
+
 
 
     }

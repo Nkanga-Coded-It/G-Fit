@@ -13,17 +13,37 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 public class OnBoardingScreen extends AppCompatActivity {
 
     ViewPager mSliderAdapter;
     LinearLayout mDotLayout;
     Button backBtn,  skipBtn, nextBtn;
+    FirebaseAuth mAuth;
 
 
     TextView[] dots;
     ViewPagerAdapter viewPagerAdapter;
 
-    @RequiresApi(api = Build.VERSION_CODES.M)
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        mAuth = FirebaseAuth.getInstance();
+        FirebaseUser currentUser = mAuth.getCurrentUser();
+        if (currentUser != null) {
+            Intent i = new Intent(OnBoardingScreen.this,HomeScreen.class);
+            startActivity(i);;
+
+        }
+
+
+
+    }
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +52,12 @@ public class OnBoardingScreen extends AppCompatActivity {
         skipBtn = findViewById(R.id.skipbtn);
         nextBtn = findViewById(R.id.nextbtn);
         backBtn = findViewById(R.id.backbtn);
+
+
+
+
+
+
 
 
         skipBtn.setOnClickListener(new View.OnClickListener() {

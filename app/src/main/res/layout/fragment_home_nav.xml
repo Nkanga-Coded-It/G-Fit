@@ -60,12 +60,12 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/fullBody_card"
             android:layout_width="350dp"
-            android:layout_height="141dp"
+            android:layout_height="155dp"
             android:layout_marginStart="29dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="32dp"
             android:alignmentMode="alignMargins"
-            android:background="@drawable/equipment_card"
+            android:background="@drawable/fullbody_card"
             android:columnCount="2"
             android:columnOrderPreserved="false"
             android:rowCount="3"
@@ -74,42 +74,46 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/greeting">
 
-            <LinearLayout
-                android:layout_width="14dp"
-                android:layout_height="3dp"
-                android:layout_marginEnd="148dp"
-                android:layout_marginBottom="16dp"
-                android:background="@color/white"
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="294dp"
+                android:layout_height="124dp"
+                android:layout_marginBottom="2dp"
+                android:src="@drawable/running"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toStartOf="parent">
+                app:layout_constraintHorizontal_bias="0.508"
+                app:layout_constraintStart_toStartOf="parent" />
 
-            </LinearLayout>
 
             <TextView
-                android:layout_width="66dp"
-                android:layout_height="18dp"
+                android:id="@+id/textView18"
+                android:layout_width="87dp"
+                android:layout_height="40dp"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginEnd="80dp"
-                android:fontFamily="@font/source_sanspro_bold"
-                android:text=" PARTNERS"
-                android:textColor="#FFFFFF"
-                android:textSize="12sp"
+                android:fontFamily="@font/avenir_next_lt_pro_bold"
+                android:text="FULL"
+                android:textColor="#92DFC5"
+                android:textSize="34sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.086"
+                app:layout_constraintHorizontal_bias="0.371"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <ImageView
-                android:layout_width="102dp"
-                android:layout_height="118dp"
-                android:layout_marginBottom="20dp"
-                android:src="@drawable/meditate"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="96dp"
+                android:layout_marginTop="52dp"
+                android:text="BODY"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="#8292DFC5"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -141,6 +145,7 @@
 
 
             <TextView
+                android:id="@+id/textView15"
                 android:layout_width="66dp"
                 android:layout_height="18dp"
                 android:layout_marginStart="16dp"
@@ -155,21 +160,23 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
-                android:layout_width="102dp"
-                android:layout_height="118dp"
-                android:layout_marginTop="14dp"
-                android:layout_marginEnd="28dp"
-                android:layout_marginBottom="44dp"
+                android:layout_width="108dp"
+                android:layout_height="121dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="32dp"
                 android:src="@drawable/partners"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintVertical_bias="0.0" />
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/equipment_card"
+            android:id="@+id/equipmentCard"
             android:layout_width="162dp"
             android:layout_height="211dp"
             android:layout_marginTop="16dp"
@@ -181,6 +188,19 @@
             android:rowCount="3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/partnerCard">
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="29.5dp"
+                android:layout_height="51.58dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="4dp"
+                android:src="@drawable/vase"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
 
             <LinearLayout
                 android:layout_width="14dp"
@@ -194,6 +214,7 @@
                 app:layout_constraintStart_toStartOf="parent"></LinearLayout>
 
             <TextView
+                android:id="@+id/textView16"
                 android:layout_width="66dp"
                 android:layout_height="18dp"
                 android:layout_marginStart="16dp"
@@ -208,14 +229,19 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
-                android:layout_width="102dp"
-                android:layout_height="118dp"
-                android:layout_marginTop="14dp"
-                android:layout_marginEnd="28dp"
-                android:layout_marginBottom="44dp"
+                android:id="@+id/imageView4"
+                android:layout_width="119dp"
+                android:layout_height="133dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="28dp"
                 android:src="@drawable/equipments"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.571"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView16"
                 app:layout_constraintVertical_bias="0.0" />
 
 
@@ -236,6 +262,7 @@
             app:layout_constraintTop_toBottomOf="@+id/meditateCard">
 
             <LinearLayout
+                android:id="@+id/linearLayout3"
                 android:layout_width="14dp"
                 android:layout_height="3dp"
                 android:layout_marginEnd="148dp"
@@ -244,10 +271,14 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toStartOf="parent"></LinearLayout>
+                app:layout_constraintStart_toStartOf="parent"
+                android:orientation="vertical">
+
+            </LinearLayout>
 
 
             <TextView
+                android:id="@+id/textView13"
                 android:layout_width="66dp"
                 android:layout_height="18dp"
                 android:layout_marginStart="16dp"
@@ -262,15 +293,16 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
-                android:layout_width="102dp"
-                android:layout_height="118dp"
-                android:layout_marginTop="14dp"
-                android:layout_marginEnd="28dp"
-                android:layout_marginBottom="44dp"
-                android:src="@drawable/meditate"
+                android:layout_width="134dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/cardio_cycle"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintVertical_bias="0.0" />
+                app:layout_constraintStart_toEndOf="@+id/linearLayout3"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -303,6 +335,7 @@
 
             <TextView
 
+                android:id="@+id/textView14"
                 android:layout_width="66dp"
                 android:layout_height="18dp"
                 android:layout_marginStart="16dp"
@@ -317,16 +350,18 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
-                android:layout_width="102dp"
-                android:layout_height="118dp"
-                android:layout_marginTop="14dp"
-                android:layout_marginEnd="28dp"
-                android:layout_marginBottom="44dp"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="28dp"
                 android:src="@drawable/meditate"
+
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-
-                app:layout_constraintVertical_bias="0.0" />
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -363,6 +398,8 @@
             app:layout_constraintHorizontal_bias="0.026"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

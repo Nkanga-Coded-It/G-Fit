@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -40,6 +41,18 @@ public final class FragmentHomeNavBinding implements ViewBinding {
   public final ImageView hourOfTheDay;
 
   @NonNull
+  public final ImageView imageView3;
+
+  @NonNull
+  public final ImageView imageView4;
+
+  @NonNull
+  public final ImageView imageView5;
+
+  @NonNull
+  public final LinearLayout linearLayout3;
+
+  @NonNull
   public final ConstraintLayout meditateCard;
 
   @NonNull
@@ -51,12 +64,33 @@ public final class FragmentHomeNavBinding implements ViewBinding {
   @NonNull
   public final TextView textView12;
 
+  @NonNull
+  public final TextView textView13;
+
+  @NonNull
+  public final TextView textView14;
+
+  @NonNull
+  public final TextView textView15;
+
+  @NonNull
+  public final TextView textView16;
+
+  @NonNull
+  public final TextView textView17;
+
+  @NonNull
+  public final TextView textView18;
+
   private FragmentHomeNavBinding(@NonNull ScrollView rootView, @NonNull ConstraintLayout cardioCard,
       @NonNull TextView date, @NonNull ConstraintLayout equipmentCard,
       @NonNull ConstraintLayout fullBodyCard, @NonNull TextView greeting,
-      @NonNull ImageView hourOfTheDay, @NonNull ConstraintLayout meditateCard,
-      @NonNull ConstraintLayout partnerCard, @NonNull TextView textView11,
-      @NonNull TextView textView12) {
+      @NonNull ImageView hourOfTheDay, @NonNull ImageView imageView3, @NonNull ImageView imageView4,
+      @NonNull ImageView imageView5, @NonNull LinearLayout linearLayout3,
+      @NonNull ConstraintLayout meditateCard, @NonNull ConstraintLayout partnerCard,
+      @NonNull TextView textView11, @NonNull TextView textView12, @NonNull TextView textView13,
+      @NonNull TextView textView14, @NonNull TextView textView15, @NonNull TextView textView16,
+      @NonNull TextView textView17, @NonNull TextView textView18) {
     this.rootView = rootView;
     this.cardioCard = cardioCard;
     this.date = date;
@@ -64,10 +98,20 @@ public final class FragmentHomeNavBinding implements ViewBinding {
     this.fullBodyCard = fullBodyCard;
     this.greeting = greeting;
     this.hourOfTheDay = hourOfTheDay;
+    this.imageView3 = imageView3;
+    this.imageView4 = imageView4;
+    this.imageView5 = imageView5;
+    this.linearLayout3 = linearLayout3;
     this.meditateCard = meditateCard;
     this.partnerCard = partnerCard;
     this.textView11 = textView11;
     this.textView12 = textView12;
+    this.textView13 = textView13;
+    this.textView14 = textView14;
+    this.textView15 = textView15;
+    this.textView16 = textView16;
+    this.textView17 = textView17;
+    this.textView18 = textView18;
   }
 
   @Override
@@ -109,7 +153,7 @@ public final class FragmentHomeNavBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.equipment_card;
+      id = R.id.equipmentCard;
       ConstraintLayout equipmentCard = ViewBindings.findChildViewById(rootView, id);
       if (equipmentCard == null) {
         break missingId;
@@ -130,6 +174,30 @@ public final class FragmentHomeNavBinding implements ViewBinding {
       id = R.id.hourOfTheDay;
       ImageView hourOfTheDay = ViewBindings.findChildViewById(rootView, id);
       if (hourOfTheDay == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView3;
+      ImageView imageView3 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView3 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView4;
+      ImageView imageView4 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView4 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView5;
+      ImageView imageView5 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView5 == null) {
+        break missingId;
+      }
+
+      id = R.id.linearLayout3;
+      LinearLayout linearLayout3 = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayout3 == null) {
         break missingId;
       }
 
@@ -157,8 +225,46 @@ public final class FragmentHomeNavBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView13;
+      TextView textView13 = ViewBindings.findChildViewById(rootView, id);
+      if (textView13 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView14;
+      TextView textView14 = ViewBindings.findChildViewById(rootView, id);
+      if (textView14 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView15;
+      TextView textView15 = ViewBindings.findChildViewById(rootView, id);
+      if (textView15 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView16;
+      TextView textView16 = ViewBindings.findChildViewById(rootView, id);
+      if (textView16 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView17;
+      TextView textView17 = ViewBindings.findChildViewById(rootView, id);
+      if (textView17 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView18;
+      TextView textView18 = ViewBindings.findChildViewById(rootView, id);
+      if (textView18 == null) {
+        break missingId;
+      }
+
       return new FragmentHomeNavBinding((ScrollView) rootView, cardioCard, date, equipmentCard,
-          fullBodyCard, greeting, hourOfTheDay, meditateCard, partnerCard, textView11, textView12);
+          fullBodyCard, greeting, hourOfTheDay, imageView3, imageView4, imageView5, linearLayout3,
+          meditateCard, partnerCard, textView11, textView12, textView13, textView14, textView15,
+          textView16, textView17, textView18);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
