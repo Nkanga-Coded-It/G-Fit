@@ -46,13 +46,7 @@ public class ExerciseNavFragment extends Fragment {
         String [] exerciseName = {"Bicep Curl","Squat","Standing Press","PushUp"};
         String [] musclesInvolved = {"Biceps","Leg and Ass","Shoulders","Chest"};
         String [] exerciseDifficulty = {"Hard","Easy","Intermediate","Easy"};
-        String [] exerciseDescription = {"asasasasasas","asasasasasasasa","asassasas","1.Keep your arms straight, your butt clenched, your core tightened, and your elbows as even with the floor as you can.\n" +
-                "2.Gradually lower yourself until each elbow is at a 90-degree angle or less.\n" +
-                "3.Try to go all the way down until either your chest or nose or chin lightly touches the floor, inhaling along the way.\n" +
-                "4.Once your chest or nose or chin is touching the floor, hold for a brief pause before thrusting yourself back into the starting position, exhaling as you go.\n" +
-                "5.Prevent your elbows from flying outward during each rep and keep them somewhat close to your body.\n" +
-                "6.Maintain a steady and consistent formation throughout each rep.\n" +
-                "7.Perform as many reps as you can until you feel that you can no longer maintain the plank-like formation or prevent your elbows from pointing away from you."};
+        String [] exerciseDescription = {"asasasasasas","asasasasasasasa","asassasas","dfddfdfdfdfd"};
 
 
         ArrayList<User2> user2ArrayList = new ArrayList<>();
