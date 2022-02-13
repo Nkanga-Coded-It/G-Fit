@@ -1,15 +1,23 @@
+com/example/g_fit/User.java
+ com.example.g_fit.User
+com/example/g_fit/BuildConfig.java
+ com.example.g_fit.BuildConfig
+com/example/g_fit/User2.java
+ com.example.g_fit.User2
 com/example/g_fit/databinding/FragmentHomeNavBinding.java
  com.example.g_fit.databinding.FragmentHomeNavBinding
 com/example/g_fit/databinding/ActivitySplashScreenBinding.java
  com.example.g_fit.databinding.ActivitySplashScreenBinding
-com/example/g_fit/User2.java
- com.example.g_fit.User2
+com/example/g_fit/ViewPagerAdapter.java
+ com.example.g_fit.ViewPagerAdapter
+com/example/g_fit/ExercisePage.java
+ com.example.g_fit.ExercisePage
 com/example/g_fit/ExerciseListAdapter.java
  com.example.g_fit.ExerciseListAdapter
-com/example/g_fit/BuildConfig.java
- com.example.g_fit.BuildConfig
 com/example/g_fit/HomeNavFragment.java
  com.example.g_fit.HomeNavFragment
+com/example/g_fit/databinding/ActivityLogInScreenBinding.java
+ com.example.g_fit.databinding.ActivityLogInScreenBinding
 com/example/g_fit/OnBoardingScreen.java
  com.example.g_fit.OnBoardingScreen
  com.example.g_fit.OnBoardingScreen$1
@@ -18,29 +26,6 @@ com/example/g_fit/OnBoardingScreen.java
  com.example.g_fit.OnBoardingScreen$4
 com/example/g_fit/databinding/FragmentExerciseNavBinding.java
  com.example.g_fit.databinding.FragmentExerciseNavBinding
-com/example/g_fit/databinding/FragmentProfileNavBinding.java
- com.example.g_fit.databinding.FragmentProfileNavBinding
-com/example/g_fit/ProfileNavFragment.java
- com.example.g_fit.ProfileNavFragment
- com.example.g_fit.ProfileNavFragment$1
-com/example/g_fit/GetStartedScreen.java
- com.example.g_fit.GetStartedScreen
- com.example.g_fit.GetStartedScreen$1
-com/example/g_fit/ExerciseNavFragment.java
- com.example.g_fit.ExerciseNavFragment
- com.example.g_fit.ExerciseNavFragment$1
-com/example/g_fit/User.java
- com.example.g_fit.User
-com/example/g_fit/HomeScreen.java
- com.example.g_fit.HomeScreen
-com/example/g_fit/databinding/ActivityGetStartedScreenBinding.java
- com.example.g_fit.databinding.ActivityGetStartedScreenBinding
-com/example/g_fit/ViewPagerAdapter.java
- com.example.g_fit.ViewPagerAdapter
-com/example/g_fit/ExercisePage.java
- com.example.g_fit.ExercisePage
-com/example/g_fit/databinding/ActivityLogInScreenBinding.java
- com.example.g_fit.databinding.ActivityLogInScreenBinding
 com/example/g_fit/LogInScreen.java
  com.example.g_fit.LogInScreen
  com.example.g_fit.LogInScreen$1
@@ -54,8 +39,19 @@ com/example/g_fit/SplashScreen.java
  com.example.g_fit.SplashScreen$1
 com/example/g_fit/databinding/ActivityExercisePageBinding.java
  com.example.g_fit.databinding.ActivityExercisePageBinding
+com/example/g_fit/databinding/FragmentProfileNavBinding.java
+ com.example.g_fit.databinding.FragmentProfileNavBinding
+com/example/g_fit/ProfileNavFragment.java
+ com.example.g_fit.ProfileNavFragment
+ com.example.g_fit.ProfileNavFragment$1
 com/example/g_fit/databinding/ActivityHomescreenBinding.java
  com.example.g_fit.databinding.ActivityHomescreenBinding
+com/example/g_fit/GetStartedScreen.java
+ com.example.g_fit.GetStartedScreen
+ com.example.g_fit.GetStartedScreen$1
+com/example/g_fit/ExerciseNavFragment.java
+ com.example.g_fit.ExerciseNavFragment
+ com.example.g_fit.ExerciseNavFragment$1
 com/example/g_fit/databinding/ExerciseListBinding.java
  com.example.g_fit.databinding.ExerciseListBinding
 com/example/g_fit/SignUpScreen.java
@@ -68,3 +64,7 @@ com/example/g_fit/databinding/SliderLayoutBinding.java
  com.example.g_fit.databinding.SliderLayoutBinding
 com/example/g_fit/databinding/ActivityOnBoardingScreenBinding.java
  com.example.g_fit.databinding.ActivityOnBoardingScreenBinding
+com/example/g_fit/HomeScreen.java
+ com.example.g_fit.HomeScreen
+com/example/g_fit/databinding/ActivityGetStartedScreenBinding.java
+ com.example.g_fit.databinding.ActivityGetStartedScreenBinding

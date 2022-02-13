@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -18,7 +19,7 @@ import java.lang.String;
 
 public final class FragmentHomeNavBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final ScrollView rootView;
 
   @NonNull
   public final ConstraintLayout cardioCard;
@@ -44,11 +45,18 @@ public final class FragmentHomeNavBinding implements ViewBinding {
   @NonNull
   public final ConstraintLayout partnerCard;
 
-  private FragmentHomeNavBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout cardioCard, @NonNull TextView date,
-      @NonNull ConstraintLayout equipmentCard, @NonNull ConstraintLayout fullBodyCard,
-      @NonNull TextView greeting, @NonNull ImageView hourOfTheDay,
-      @NonNull ConstraintLayout meditateCard, @NonNull ConstraintLayout partnerCard) {
+  @NonNull
+  public final TextView textView11;
+
+  @NonNull
+  public final TextView textView12;
+
+  private FragmentHomeNavBinding(@NonNull ScrollView rootView, @NonNull ConstraintLayout cardioCard,
+      @NonNull TextView date, @NonNull ConstraintLayout equipmentCard,
+      @NonNull ConstraintLayout fullBodyCard, @NonNull TextView greeting,
+      @NonNull ImageView hourOfTheDay, @NonNull ConstraintLayout meditateCard,
+      @NonNull ConstraintLayout partnerCard, @NonNull TextView textView11,
+      @NonNull TextView textView12) {
     this.rootView = rootView;
     this.cardioCard = cardioCard;
     this.date = date;
@@ -58,11 +66,13 @@ public final class FragmentHomeNavBinding implements ViewBinding {
     this.hourOfTheDay = hourOfTheDay;
     this.meditateCard = meditateCard;
     this.partnerCard = partnerCard;
+    this.textView11 = textView11;
+    this.textView12 = textView12;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -135,8 +145,20 @@ public final class FragmentHomeNavBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeNavBinding((ConstraintLayout) rootView, cardioCard, date,
-          equipmentCard, fullBodyCard, greeting, hourOfTheDay, meditateCard, partnerCard);
+      id = R.id.textView11;
+      TextView textView11 = ViewBindings.findChildViewById(rootView, id);
+      if (textView11 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView12;
+      TextView textView12 = ViewBindings.findChildViewById(rootView, id);
+      if (textView12 == null) {
+        break missingId;
+      }
+
+      return new FragmentHomeNavBinding((ScrollView) rootView, cardioCard, date, equipmentCard,
+          fullBodyCard, greeting, hourOfTheDay, meditateCard, partnerCard, textView11, textView12);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

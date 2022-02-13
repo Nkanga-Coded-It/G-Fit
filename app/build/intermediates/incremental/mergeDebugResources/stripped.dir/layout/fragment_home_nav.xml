@@ -1,346 +1,371 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context=".HomeNavFragment">
 
-
-
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/equipment_card"
-        android:layout_width="162dp"
-        android:layout_height="211dp"
-        android:alignmentMode="alignMargins"
-        android:background="@drawable/equipment_card"
-        android:columnCount="2"
-        android:columnOrderPreserved="false"
-        android:rowCount="3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.869"
-        app:layout_constraintStart_toStartOf="@+id/cardioCard"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
-
-        <LinearLayout
-            android:layout_width="14dp"
-            android:layout_height="3dp"
-            android:layout_marginEnd="148dp"
-            android:layout_marginBottom="16dp"
-            android:background="@color/white"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"></LinearLayout>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <TextView
-            android:layout_width="66dp"
-            android:layout_height="18dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="80dp"
-            android:fontFamily="@font/source_sanspro_bold"
-            android:text=" PARTNERS"
-            android:textColor="#FFFFFF"
-            android:textSize="12sp"
+            android:id="@+id/date"
+            android:layout_width="219dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="134dp"
+            android:fontFamily="@font/source_sans_pro_semi_bold"
+            android:text="Date"
+            android:textColor="#0F866C"
+            android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/hourOfTheDay"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="1dp"
+            android:src="@drawable/sun"
+            app:layout_constraintBottom_toTopOf="@+id/greeting"
+            app:layout_constraintEnd_toStartOf="@+id/date"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:layout_width="102dp"
-            android:layout_height="118dp"
-            android:layout_marginTop="14dp"
-            android:layout_marginEnd="28dp"
-            android:layout_marginBottom="44dp"
-            android:src="@drawable/meditate"
-            app:layout_constraintBottom_toBottomOf="parent"
+        <TextView
+            android:id="@+id/greeting"
+            android:layout_width="358dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="31dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginBottom="58dp"
+            android:fontFamily="@font/avenir_next_lt_pro_bold"
+            android:text="greeting"
+            android:textColor="#001D2F"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/fullBody_card"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
-
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
-
-    <TextView
-        android:id="@+id/date"
-        android:layout_width="219dp"
-        android:layout_height="24dp"
-        android:fontFamily="@font/source_sans_pro_semi_bold"
-        android:text="Date"
-        android:textColor="#0F866C"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.302"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.015">
-
-    </TextView>
-
-    <ImageView
-        android:id="@+id/hourOfTheDay"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/sun"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/date"
-        app:layout_constraintHorizontal_bias="0.846"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.016" />
-
-    <TextView
-        android:id="@+id/greeting"
-        android:layout_width="363dp"
-        android:layout_height="54dp"
-        android:fontFamily="@font/avenir_next_lt_pro_bold"
-        android:text="greeting"
-        android:textColor="#001D2F"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.647"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.051">
-
-    </TextView>
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/fullBody_card"
-        android:layout_width="350dp"
-        android:layout_height="141dp"
-        android:layout_marginStart="31dp"
-        android:layout_marginTop="64dp"
-        android:layout_marginEnd="32dp"
-        android:alignmentMode="alignMargins"
-        android:background="@drawable/equipment_card"
-        android:columnCount="2"
-        android:columnOrderPreserved="false"
-        android:rowCount="3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <LinearLayout
-            android:layout_width="14dp"
-            android:layout_height="3dp"
-            android:layout_marginEnd="148dp"
-            android:layout_marginBottom="16dp"
-            android:background="@color/white"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent">
 
-        </LinearLayout>
+        </TextView>
 
-        <TextView
-            android:layout_width="66dp"
-            android:layout_height="18dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="32dp"
-            android:layout_marginEnd="80dp"
-            android:fontFamily="@font/source_sanspro_bold"
-            android:text=" PARTNERS"
-            android:textColor="#FFFFFF"
-            android:textSize="12sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.086"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <ImageView
-            android:layout_width="102dp"
-            android:layout_height="118dp"
-            android:layout_marginBottom="20dp"
-            android:src="@drawable/meditate"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/meditateCard"
-        android:layout_width="162dp"
-        android:layout_height="211dp"
-        android:layout_marginBottom="17dp"
-        android:alignmentMode="alignMargins"
-        android:background="@drawable/meditate_card"
-        android:columnCount="2"
-        android:columnOrderPreserved="false"
-        android:rowCount="3"
-        app:layout_constraintBottom_toTopOf="@+id/cardioCard"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.168"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
-
-        <LinearLayout
-            android:layout_width="14dp"
-            android:layout_height="3dp"
-            android:layout_marginEnd="148dp"
-            android:layout_marginBottom="16dp"
-            android:background="@color/white"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"></LinearLayout>
-
-
-        <TextView
-
-            android:layout_width="66dp"
-            android:layout_height="18dp"
-            android:layout_marginStart="16dp"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/fullBody_card"
+            android:layout_width="350dp"
+            android:layout_height="141dp"
+            android:layout_marginStart="29dp"
             android:layout_marginTop="16dp"
-            android:layout_marginEnd="80dp"
-            android:fontFamily="@font/source_sanspro_bold"
-            android:text=" MEDITATE"
-            android:textColor="#FFFFFF"
-            android:textSize="12sp"
+            android:layout_marginEnd="32dp"
+            android:alignmentMode="alignMargins"
+            android:background="@drawable/equipment_card"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="3"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/greeting">
 
-        <ImageView
-            android:layout_width="102dp"
-            android:layout_height="118dp"
-            android:layout_marginTop="14dp"
-            android:layout_marginEnd="28dp"
-            android:layout_marginBottom="44dp"
-            android:src="@drawable/meditate"
-            app:layout_constraintBottom_toBottomOf="parent"
+            <LinearLayout
+                android:layout_width="14dp"
+                android:layout_height="3dp"
+                android:layout_marginEnd="148dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent">
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="66dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="80dp"
+                android:fontFamily="@font/source_sanspro_bold"
+                android:text=" PARTNERS"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.086"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:layout_width="102dp"
+                android:layout_height="118dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/meditate"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/partnerCard"
+            android:layout_width="162dp"
+            android:layout_height="211dp"
+            android:layout_marginTop="76dp"
+            android:layout_marginEnd="35dp"
+            android:alignmentMode="alignMargins"
+            android:background="@drawable/partners_card"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="3"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fullBody_card">
 
-            app:layout_constraintVertical_bias="0.0" />
+            <LinearLayout
+                android:layout_width="14dp"
+                android:layout_height="3dp"
+                android:layout_marginEnd="148dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"></LinearLayout>
 
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:layout_width="66dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="80dp"
+                android:fontFamily="@font/source_sanspro_bold"
+                android:text=" PARTNERS"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/cardioCard"
-        android:layout_width="162dp"
-        android:layout_height="211dp"
-        android:alignmentMode="alignMargins"
-        android:background="@drawable/cardio_card"
-        android:columnCount="2"
-        android:columnOrderPreserved="false"
-        android:rowCount="3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.168"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+            <ImageView
+                android:layout_width="102dp"
+                android:layout_height="118dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginBottom="44dp"
+                android:src="@drawable/partners"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
 
-        <LinearLayout
-            android:layout_width="14dp"
-            android:layout_height="3dp"
-            android:layout_marginEnd="148dp"
-            android:layout_marginBottom="16dp"
-            android:background="@color/white"
-            app:layout_constraintBottom_toBottomOf="parent"
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/equipment_card"
+            android:layout_width="162dp"
+            android:layout_height="211dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="35dp"
+            android:alignmentMode="alignMargins"
+            android:background="@drawable/equipment_card"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="3"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"></LinearLayout>
+            app:layout_constraintTop_toBottomOf="@+id/partnerCard">
 
+            <LinearLayout
+                android:layout_width="14dp"
+                android:layout_height="3dp"
+                android:layout_marginEnd="148dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"></LinearLayout>
+
+            <TextView
+                android:layout_width="66dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="80dp"
+                android:fontFamily="@font/source_sanspro_bold"
+                android:text=" PARTNERS"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:layout_width="102dp"
+                android:layout_height="118dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginBottom="44dp"
+                android:src="@drawable/equipments"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cardioCard"
+            android:layout_width="162dp"
+            android:layout_height="211dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="16dp"
+            android:alignmentMode="alignMargins"
+            android:background="@drawable/cardio_card"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/meditateCard">
+
+            <LinearLayout
+                android:layout_width="14dp"
+                android:layout_height="3dp"
+                android:layout_marginEnd="148dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"></LinearLayout>
+
+
+            <TextView
+                android:layout_width="66dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="80dp"
+                android:fontFamily="@font/source_sanspro_bold"
+                android:text=" PARTNERS"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:layout_width="102dp"
+                android:layout_height="118dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginBottom="44dp"
+                android:src="@drawable/meditate"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/meditateCard"
+            android:layout_width="162dp"
+            android:layout_height="211dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="76dp"
+            android:alignmentMode="alignMargins"
+            android:background="@drawable/meditate_card"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fullBody_card">
+
+            <LinearLayout
+                android:layout_width="14dp"
+                android:layout_height="3dp"
+                android:layout_marginEnd="148dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"></LinearLayout>
+
+
+            <TextView
+
+                android:layout_width="66dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="80dp"
+                android:fontFamily="@font/source_sanspro_bold"
+                android:text=" MEDITATE"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:layout_width="102dp"
+                android:layout_height="118dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginBottom="44dp"
+                android:src="@drawable/meditate"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintVertical_bias="0.0" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
-            android:layout_width="66dp"
-            android:layout_height="18dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="80dp"
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="211dp"
+            android:layout_marginBottom="1dp"
             android:fontFamily="@font/source_sanspro_bold"
-            android:text=" PARTNERS"
-            android:textColor="#FFFFFF"
-            android:textSize="12sp"
+            android:text="Quick Starters"
+            android:textColor="#0F0F0F"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView12"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <ImageView
-            android:layout_width="102dp"
-            android:layout_height="118dp"
-            android:layout_marginTop="14dp"
-            android:layout_marginEnd="28dp"
-            android:layout_marginBottom="44dp"
-            android:src="@drawable/meditate"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
-
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/partnerCard"
-        android:layout_width="162dp"
-        android:layout_height="211dp"
-        android:alignmentMode="alignMargins"
-        android:background="@drawable/partners_card"
-        android:columnCount="2"
-        android:columnOrderPreserved="false"
-        android:rowCount="3"
-        app:layout_constraintBottom_toTopOf="@+id/equipment_card"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
-        app:layout_constraintStart_toEndOf="@+id/meditateCard"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.94">
-
-        <LinearLayout
-            android:layout_width="14dp"
-            android:layout_height="3dp"
-            android:layout_marginEnd="148dp"
-            android:layout_marginBottom="16dp"
-            android:background="@color/white"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"></LinearLayout>
-
+            app:layout_constraintTop_toBottomOf="@+id/fullBody_card" />
 
         <TextView
-            android:layout_width="66dp"
-            android:layout_height="18dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="80dp"
-            android:fontFamily="@font/source_sanspro_bold"
-            android:text=" PARTNERS"
-            android:textColor="#FFFFFF"
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="275dp"
+            android:text="start the day with an exercise starter"
+            android:textColor="#A59C9C"
             android:textSize="12sp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.026"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <ImageView
-            android:layout_width="102dp"
-            android:layout_height="118dp"
-            android:layout_marginTop="14dp"
-            android:layout_marginEnd="28dp"
-            android:layout_marginBottom="44dp"
-            android:src="@drawable/meditate"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -55,7 +55,6 @@ public class HomeNavFragment extends Fragment {
 
         if(timeOfDay <12) {
             //print out good morning
-
             greeting.setText("Good Morning");
             drawable = getResources().getDrawable(R.drawable.sun);
             symbol.setImageDrawable(drawable);
@@ -64,9 +63,8 @@ public class HomeNavFragment extends Fragment {
         }
         else if(timeOfDay >= 12 && timeOfDay <16){
             //Print out good afternoon
-
             greeting.setText("Good Afternoon");
-            drawable = getResources().getDrawable(R.drawable.sun);
+            drawable = getResources().getDrawable(R.drawable.sunset);
             symbol.setImageDrawable(drawable);
 
         }
