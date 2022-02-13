@@ -1822,6 +1822,7 @@ drawable button_nav_icon_color
 drawable button_nav_text_color
 drawable calisthenics
 drawable cardio
+drawable cardio_card
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1849,6 +1850,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable equipment_card
 drawable exercise
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
@@ -1873,6 +1875,8 @@ drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
 drawable meditate
+drawable meditate_card
+drawable moon
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1896,6 +1900,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable partners_card
 drawable profile
 drawable pushup
 drawable rectangle
@@ -1905,6 +1910,7 @@ drawable splashscreen_artwork
 drawable start_your_journey_artwork
 drawable start_your_journey_artwork2
 drawable stretching
+drawable sun
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -2025,6 +2031,7 @@ id buttonPanel
 id cache_measures
 id cancel_action
 id cancel_button
+id cardioCard
 id carryVelocity
 id center
 id center_horizontal
@@ -2061,6 +2068,7 @@ id custom
 id customPanel
 id cut
 id dark
+id date
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -2103,6 +2111,7 @@ id endToStart
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id equipment_card
 id exercise
 id exercise_difficulty
 id exercise_image
@@ -2124,6 +2133,7 @@ id forever
 id fragment_container_view_tag
 id frame_layout
 id frost
+id fullBody_card
 id g_fit_logo
 id getStartedBtn
 id ghost_view
@@ -2131,6 +2141,7 @@ id ghost_view_holder
 id gone
 id graph
 id graph_wrap
+id greeting
 id group_divider
 id grouping
 id groups
@@ -2141,6 +2152,7 @@ id home
 id homeAsUp
 id honorRequest
 id horizontal_only
+id hourOfTheDay
 id icon
 id icon_group
 id icon_only
@@ -2196,6 +2208,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id media_actions
+id meditateCard
 id message
 id middle
 id mini
@@ -2261,6 +2274,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id partnerCard
 id password_toggle
 id path
 id pathRelative
