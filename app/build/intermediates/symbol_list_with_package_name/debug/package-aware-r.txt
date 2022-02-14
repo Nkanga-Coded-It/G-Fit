@@ -1810,6 +1810,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bicep_curl
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1824,6 +1825,7 @@ drawable calisthenics
 drawable cardio
 drawable cardio_card
 drawable cardio_cycle
+drawable cardio_running
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1855,6 +1857,7 @@ drawable equipment_card
 drawable equipments
 drawable exercise
 drawable fullbody_card
+drawable goblet_squat
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable home
@@ -1865,7 +1868,9 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable inclined_press
 drawable invisible_rectangle
+drawable leg_curl
 drawable logo
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
@@ -1910,6 +1915,7 @@ drawable pushup
 drawable rectangle
 drawable running
 drawable situp
+drawable skull_crusher
 drawable spalshscreen_project_by
 drawable splashscreen_artwork
 drawable start_your_journey_artwork
@@ -1920,8 +1926,10 @@ drawable sunset
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable tricep_extension
 drawable vase
 drawable weight_lifting
+drawable white_card
 font avenir_next_lt_pro_bold
 font axis_extrabold
 font source_sans_pro_semi_bold
@@ -1930,6 +1938,8 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id Day_1
+id Day_2
 id FUNCTION
 id META
 id NO_DEBUG
@@ -2192,7 +2202,11 @@ id line1
 id line3
 id linear
 id linearLayout
+id linearLayout2
 id linearLayout3
+id linearLayout4
+id linearLayout5
+id linearLayout9
 id listMode
 id list_item
 id logout_button
@@ -2423,6 +2437,12 @@ id textView2
 id textView20
 id textView21
 id textView22
+id textView23
+id textView24
+id textView25
+id textView26
+id textView27
+id textView28
 id textView3
 id textView4
 id textView5
@@ -2467,6 +2487,7 @@ id user_email
 id useremail3
 id vertical_only
 id view
+id view2
 id viewPager
 id view_offset_helper
 id view_transition

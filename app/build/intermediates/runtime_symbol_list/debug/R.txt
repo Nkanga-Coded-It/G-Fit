@@ -1809,6 +1809,7 @@ int drawable abc_textfield_search_material 0x7f070054
 int drawable abc_vector_test 0x7f070055
 int drawable avd_hide_password 0x7f070056
 int drawable avd_show_password 0x7f070057
+int drawable bicep_curl 0x7f0700ce
 int drawable btn_checkbox_checked_mtrl 0x7f070058
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f070059
 int drawable btn_checkbox_unchecked_mtrl 0x7f07005a
@@ -1823,6 +1824,7 @@ int drawable calisthenics 0x7f070062
 int drawable cardio 0x7f070063
 int drawable cardio_card 0x7f070064
 int drawable cardio_cycle 0x7f0700c4
+int drawable cardio_running 0x7f0700cf
 int drawable common_full_open_on_phone 0x7f070065
 int drawable common_google_signin_btn_icon_dark 0x7f070066
 int drawable common_google_signin_btn_icon_dark_focused 0x7f070067
@@ -1854,6 +1856,7 @@ int drawable equipment_card 0x7f070080
 int drawable equipments 0x7f070081
 int drawable exercise 0x7f070082
 int drawable fullbody_card 0x7f0700c6
+int drawable goblet_squat 0x7f0700cc
 int drawable googleg_disabled_color_18 0x7f070083
 int drawable googleg_standard_color_18 0x7f070084
 int drawable home 0x7f070085
@@ -1864,7 +1867,9 @@ int drawable ic_mtrl_checked_circle 0x7f070089
 int drawable ic_mtrl_chip_checked_black 0x7f07008a
 int drawable ic_mtrl_chip_checked_circle 0x7f07008b
 int drawable ic_mtrl_chip_close_circle 0x7f07008c
+int drawable inclined_press 0x7f0700cb
 int drawable invisible_rectangle 0x7f07008d
+int drawable leg_curl 0x7f0700cd
 int drawable logo 0x7f07008e
 int drawable material_cursor_drawable 0x7f07008f
 int drawable material_ic_calendar_black_24dp 0x7f070090
@@ -1909,6 +1914,7 @@ int drawable pushup 0x7f0700b6
 int drawable rectangle 0x7f0700b7
 int drawable running 0x7f0700c7
 int drawable situp 0x7f0700b8
+int drawable skull_crusher 0x7f0700ca
 int drawable spalshscreen_project_by 0x7f0700b9
 int drawable splashscreen_artwork 0x7f0700ba
 int drawable start_your_journey_artwork 0x7f0700bb
@@ -1919,8 +1925,10 @@ int drawable sunset 0x7f0700c3
 int drawable test_custom_background 0x7f0700bf
 int drawable tooltip_frame_dark 0x7f0700c0
 int drawable tooltip_frame_light 0x7f0700c1
+int drawable tricep_extension 0x7f0700c9
 int drawable vase 0x7f0700c5
 int drawable weight_lifting 0x7f0700c2
+int drawable white_card 0x7f0700c8
 int font avenir_next_lt_pro_bold 0x7f080000
 int font axis_extrabold 0x7f080001
 int font source_sans_pro_semi_bold 0x7f080002
@@ -1929,6 +1937,8 @@ int id ALT 0x7f090000
 int id BOTTOM_END 0x7f090001
 int id BOTTOM_START 0x7f090002
 int id CTRL 0x7f090003
+int id Day_1 0x7f090234
+int id Day_2 0x7f090239
 int id FUNCTION 0x7f090004
 int id META 0x7f090005
 int id NO_DEBUG 0x7f090006
@@ -2191,7 +2201,11 @@ int id line1 0x7f090103
 int id line3 0x7f090104
 int id linear 0x7f090105
 int id linearLayout 0x7f090106
+int id linearLayout2 0x7f090236
 int id linearLayout3 0x7f090220
+int id linearLayout4 0x7f090237
+int id linearLayout5 0x7f090238
+int id linearLayout9 0x7f09023a
 int id listMode 0x7f090107
 int id list_item 0x7f090108
 int id logout_button 0x7f090109
@@ -2422,6 +2436,12 @@ int id textView2 0x7f0901df
 int id textView20 0x7f09022d
 int id textView21 0x7f09022e
 int id textView22 0x7f09022f
+int id textView23 0x7f090230
+int id textView24 0x7f090231
+int id textView25 0x7f090232
+int id textView26 0x7f090233
+int id textView27 0x7f090235
+int id textView28 0x7f09023b
 int id textView3 0x7f0901e0
 int id textView4 0x7f0901e1
 int id textView5 0x7f0901e2
@@ -2466,6 +2486,7 @@ int id user_email 0x7f090208
 int id useremail3 0x7f090209
 int id vertical_only 0x7f09020a
 int id view 0x7f09020b
+int id view2 0x7f09023c
 int id viewPager 0x7f09020c
 int id view_offset_helper 0x7f09020d
 int id view_transition 0x7f09020e
