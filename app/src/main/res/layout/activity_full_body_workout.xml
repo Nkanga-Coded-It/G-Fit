@@ -130,21 +130,22 @@
             android:textAlignment="viewStart"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.242"
+            app:layout_constraintHorizontal_bias="0.333"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.259" />
+            app:layout_constraintVertical_bias="0.239" />
 
         <TextView
             android:id="@+id/textView25"
             android:layout_width="360dp"
             android:layout_height="111dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="8dp"
             android:layout_marginEnd="24dp"
             android:fontFamily="sans-serif"
             android:text="   There are 3–4 sets of 10 repetitions each to enhance muscle growth and gain throughout workout performance. Incorporate aerobic workouts into your workout days. You may do extra cardio by substituting rest days for cardio days. Increase the number of repetitions for ladies to achieve a toned appearance."
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.818"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView24" />
 

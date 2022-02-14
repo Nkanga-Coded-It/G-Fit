@@ -1910,6 +1910,8 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable partners
 drawable partners_card
+drawable pause_arrow
+drawable play_arrow
 drawable profile
 drawable pushup
 drawable rectangle
@@ -1920,6 +1922,7 @@ drawable spalshscreen_project_by
 drawable splashscreen_artwork
 drawable start_your_journey_artwork
 drawable start_your_journey_artwork2
+drawable stop_box
 drawable stretching
 drawable sun
 drawable sunset
@@ -2432,7 +2435,6 @@ id textView15
 id textView16
 id textView17
 id textView18
-id textView19
 id textView2
 id textView20
 id textView21
@@ -2444,6 +2446,10 @@ id textView26
 id textView27
 id textView28
 id textView3
+id textView31
+id textView32
+id textView33
+id textView35
 id textView4
 id textView5
 id textView6
@@ -2691,6 +2697,7 @@ mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw senses_and_breath
 string Calisthenics
 string LOGO
 string Stretching

@@ -54,6 +54,7 @@ com/example/g_fit/ExercisePage.java
  com.example.g_fit.ExercisePage
 com/example/g_fit/MeditationExercise.java
  com.example.g_fit.MeditationExercise
+ com.example.g_fit.MeditationExercise$1
 com/example/g_fit/databinding/ActivityLogInScreenBinding.java
  com.example.g_fit.databinding.ActivityLogInScreenBinding
 com/example/g_fit/LogInScreen.java
