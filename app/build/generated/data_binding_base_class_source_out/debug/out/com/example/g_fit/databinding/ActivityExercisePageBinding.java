@@ -35,16 +35,20 @@ public final class ActivityExercisePageBinding implements ViewBinding {
   @NonNull
   public final TextView nameOfTheExercise;
 
+  @NonNull
+  public final TextView textView29;
+
   private ActivityExercisePageBinding(@NonNull ConstraintLayout rootView,
       @NonNull TextView descriptionOfTheExercise, @NonNull TextView difficulty,
       @NonNull ImageView imageOfWorkout, @NonNull TextView muslcesTargerted,
-      @NonNull TextView nameOfTheExercise) {
+      @NonNull TextView nameOfTheExercise, @NonNull TextView textView29) {
     this.rootView = rootView;
     this.descriptionOfTheExercise = descriptionOfTheExercise;
     this.difficulty = difficulty;
     this.imageOfWorkout = imageOfWorkout;
     this.muslcesTargerted = muslcesTargerted;
     this.nameOfTheExercise = nameOfTheExercise;
+    this.textView29 = textView29;
   }
 
   @Override
@@ -104,8 +108,14 @@ public final class ActivityExercisePageBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView29;
+      TextView textView29 = ViewBindings.findChildViewById(rootView, id);
+      if (textView29 == null) {
+        break missingId;
+      }
+
       return new ActivityExercisePageBinding((ConstraintLayout) rootView, descriptionOfTheExercise,
-          difficulty, imageOfWorkout, muslcesTargerted, nameOfTheExercise);
+          difficulty, imageOfWorkout, muslcesTargerted, nameOfTheExercise, textView29);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

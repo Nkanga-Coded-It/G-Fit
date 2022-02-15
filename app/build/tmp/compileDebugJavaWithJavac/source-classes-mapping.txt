@@ -1,7 +1,7 @@
-com/example/g_fit/User.java
- com.example.g_fit.User
 com/example/g_fit/BuildConfig.java
  com.example.g_fit.BuildConfig
+com/example/g_fit/User.java
+ com.example.g_fit.User
 com/example/g_fit/User2.java
  com.example.g_fit.User2
 com/example/g_fit/databinding/FragmentHomeNavBinding.java

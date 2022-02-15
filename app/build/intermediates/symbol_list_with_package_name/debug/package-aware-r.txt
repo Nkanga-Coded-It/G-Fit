@@ -1811,6 +1811,7 @@ drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
 drawable bicep_curl
+drawable bicep_curl_header
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1861,6 +1862,7 @@ drawable goblet_squat
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable home
+drawable hook_squat
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_foreground
@@ -1911,8 +1913,11 @@ drawable notify_panel_notification_icon_bg
 drawable partners
 drawable partners_card
 drawable pause_arrow
+drawable plank_and_reach
 drawable play_arrow
 drawable profile
+drawable pullup_header
+drawable push_up_reach
 drawable pushup
 drawable rectangle
 drawable running
@@ -1920,6 +1925,7 @@ drawable situp
 drawable skull_crusher
 drawable spalshscreen_project_by
 drawable splashscreen_artwork
+drawable squats_header
 drawable start_your_journey_artwork
 drawable start_your_journey_artwork2
 drawable stop_box
@@ -2435,6 +2441,7 @@ id textView15
 id textView16
 id textView17
 id textView18
+id textView19
 id textView2
 id textView20
 id textView21
@@ -2445,6 +2452,7 @@ id textView25
 id textView26
 id textView27
 id textView28
+id textView29
 id textView3
 id textView31
 id textView32

@@ -42,11 +42,26 @@ public class ExerciseNavFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
 
-        int[] imageID = {R.drawable.situp,R.drawable.meditate,R.drawable.stretching,R.drawable.pushup};
+        int[] imageID = {R.drawable.bicep_curl_header,R.drawable.squats_header,R.drawable.pullup_header,R.drawable.pushup};
         String [] exerciseName = {"Bicep Curl","Squat","Standing Press","PushUp"};
         String [] musclesInvolved = {"Biceps","Leg and Ass","Shoulders","Chest"};
         String [] exerciseDifficulty = {"Hard","Easy","Intermediate","Easy"};
-        String [] exerciseDescription = {"asasasasasas","asasasasasasasa","asassasas","dfddfdfdfdfd"};
+        String [] exerciseDescription = {"1.Start standing with a dumbbell in each hand. Your elbows should rest at your sides and your forearms should extend out in front of your body.\n" +" \n"+
+                "2.Bring the dumbbells all the way up to your shoulders by bending your elbows.\n" +" \n"+
+                "3.Reverse the curl slowly and repeat.", " 1.Stand straight with feet hip-width apart.\n" + " \n"+ "2.Tighten your stomach muscles.\n" + " \n"+ "3: Lower down, as if sitting in an invisible chair.\n" + " \n"+
+                        "4.Straighten your legs to lift back up.\n" + " \n"+
+                        "5.Repeat the movement.",
+
+
+
+                "1.Exhale while pulling yourself up so your chin is level with the bar. Pause at the top.\n" +" \n"+
+                        "2.Lower yourself (inhaling as you go down) until your elbows are straight.\n" +" \n"+
+                        "3.Repeat the movement without touching the floor.\n" +" \n"+
+                        "4.Complete the number of repetitions your workout requires.","1.1Get down on all fours, placing your hands slightly wider than your shoulders.\n" +" \n"+
+                "2.Straighten your arms and legs.\n" +" \n"+
+                "3.Lower your body until your chest nearly touches the floor.\n" +" \n"+
+                "4.Pause, then push yourself back up.\n" +" \n"+
+                "5.Repeat."};
 
 
         ArrayList<User2> user2ArrayList = new ArrayList<>();

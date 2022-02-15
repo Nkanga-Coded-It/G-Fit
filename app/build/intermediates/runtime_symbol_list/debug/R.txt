@@ -1810,6 +1810,7 @@ int drawable abc_vector_test 0x7f070055
 int drawable avd_hide_password 0x7f070056
 int drawable avd_show_password 0x7f070057
 int drawable bicep_curl 0x7f070058
+int drawable bicep_curl_header 0x7f0700d7
 int drawable btn_checkbox_checked_mtrl 0x7f070059
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f07005a
 int drawable btn_checkbox_unchecked_mtrl 0x7f07005b
@@ -1860,6 +1861,7 @@ int drawable goblet_squat 0x7f070087
 int drawable googleg_disabled_color_18 0x7f070088
 int drawable googleg_standard_color_18 0x7f070089
 int drawable home 0x7f07008a
+int drawable hook_squat 0x7f0700d3
 int drawable ic_clock_black_24dp 0x7f07008b
 int drawable ic_keyboard_black_24dp 0x7f07008c
 int drawable ic_launcher_foreground 0x7f07008d
@@ -1910,8 +1912,11 @@ int drawable notify_panel_notification_icon_bg 0x7f0700b9
 int drawable partners 0x7f0700ba
 int drawable partners_card 0x7f0700bb
 int drawable pause_arrow 0x7f0700d0
+int drawable plank_and_reach 0x7f0700d4
 int drawable play_arrow 0x7f0700d1
 int drawable profile 0x7f0700bc
+int drawable pullup_header 0x7f0700d8
+int drawable push_up_reach 0x7f0700d5
 int drawable pushup 0x7f0700bd
 int drawable rectangle 0x7f0700be
 int drawable running 0x7f0700bf
@@ -1919,6 +1924,7 @@ int drawable situp 0x7f0700c0
 int drawable skull_crusher 0x7f0700c1
 int drawable spalshscreen_project_by 0x7f0700c2
 int drawable splashscreen_artwork 0x7f0700c3
+int drawable squats_header 0x7f0700d6
 int drawable start_your_journey_artwork 0x7f0700c4
 int drawable start_your_journey_artwork2 0x7f0700c5
 int drawable stop_box 0x7f0700d2
@@ -2434,6 +2440,7 @@ int id textView15 0x7f0901ee
 int id textView16 0x7f0901ef
 int id textView17 0x7f0901f0
 int id textView18 0x7f0901f1
+int id textView19 0x7f09023f
 int id textView2 0x7f0901f2
 int id textView20 0x7f0901f3
 int id textView21 0x7f0901f4
@@ -2444,6 +2451,7 @@ int id textView25 0x7f0901f8
 int id textView26 0x7f0901f9
 int id textView27 0x7f0901fa
 int id textView28 0x7f0901fb
+int id textView29 0x7f090240
 int id textView3 0x7f0901fc
 int id textView31 0x7f0901fd
 int id textView32 0x7f0901fe

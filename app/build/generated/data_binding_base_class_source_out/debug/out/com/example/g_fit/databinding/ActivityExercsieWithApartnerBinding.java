@@ -4,6 +4,8 @@ package com.example.g_fit.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -17,20 +19,73 @@ import java.lang.String;
 
 public final class ActivityExercsieWithApartnerBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final ScrollView rootView;
+
+  @NonNull
+  public final ConstraintLayout Day1;
+
+  @NonNull
+  public final LinearLayout linearLayout2;
+
+  @NonNull
+  public final LinearLayout linearLayout3;
+
+  @NonNull
+  public final LinearLayout linearLayout4;
+
+  @NonNull
+  public final LinearLayout linearLayout5;
+
+  @NonNull
+  public final ConstraintLayout partnerCard;
+
+  @NonNull
+  public final TextView textView10;
+
+  @NonNull
+  public final TextView textView15;
+
+  @NonNull
+  public final TextView textView19;
 
   @NonNull
   public final TextView textView21;
 
-  private ActivityExercsieWithApartnerBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView textView21) {
+  @NonNull
+  public final TextView textView23;
+
+  @NonNull
+  public final TextView textView26;
+
+  @NonNull
+  public final TextView textView27;
+
+  private ActivityExercsieWithApartnerBinding(@NonNull ScrollView rootView,
+      @NonNull ConstraintLayout Day1, @NonNull LinearLayout linearLayout2,
+      @NonNull LinearLayout linearLayout3, @NonNull LinearLayout linearLayout4,
+      @NonNull LinearLayout linearLayout5, @NonNull ConstraintLayout partnerCard,
+      @NonNull TextView textView10, @NonNull TextView textView15, @NonNull TextView textView19,
+      @NonNull TextView textView21, @NonNull TextView textView23, @NonNull TextView textView26,
+      @NonNull TextView textView27) {
     this.rootView = rootView;
+    this.Day1 = Day1;
+    this.linearLayout2 = linearLayout2;
+    this.linearLayout3 = linearLayout3;
+    this.linearLayout4 = linearLayout4;
+    this.linearLayout5 = linearLayout5;
+    this.partnerCard = partnerCard;
+    this.textView10 = textView10;
+    this.textView15 = textView15;
+    this.textView19 = textView19;
     this.textView21 = textView21;
+    this.textView23 = textView23;
+    this.textView26 = textView26;
+    this.textView27 = textView27;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -55,13 +110,87 @@ public final class ActivityExercsieWithApartnerBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.Day_1;
+      ConstraintLayout Day1 = ViewBindings.findChildViewById(rootView, id);
+      if (Day1 == null) {
+        break missingId;
+      }
+
+      id = R.id.linearLayout2;
+      LinearLayout linearLayout2 = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayout2 == null) {
+        break missingId;
+      }
+
+      id = R.id.linearLayout3;
+      LinearLayout linearLayout3 = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayout3 == null) {
+        break missingId;
+      }
+
+      id = R.id.linearLayout4;
+      LinearLayout linearLayout4 = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayout4 == null) {
+        break missingId;
+      }
+
+      id = R.id.linearLayout5;
+      LinearLayout linearLayout5 = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayout5 == null) {
+        break missingId;
+      }
+
+      id = R.id.partnerCard;
+      ConstraintLayout partnerCard = ViewBindings.findChildViewById(rootView, id);
+      if (partnerCard == null) {
+        break missingId;
+      }
+
+      id = R.id.textView10;
+      TextView textView10 = ViewBindings.findChildViewById(rootView, id);
+      if (textView10 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView15;
+      TextView textView15 = ViewBindings.findChildViewById(rootView, id);
+      if (textView15 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView19;
+      TextView textView19 = ViewBindings.findChildViewById(rootView, id);
+      if (textView19 == null) {
+        break missingId;
+      }
+
       id = R.id.textView21;
       TextView textView21 = ViewBindings.findChildViewById(rootView, id);
       if (textView21 == null) {
         break missingId;
       }
 
-      return new ActivityExercsieWithApartnerBinding((ConstraintLayout) rootView, textView21);
+      id = R.id.textView23;
+      TextView textView23 = ViewBindings.findChildViewById(rootView, id);
+      if (textView23 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView26;
+      TextView textView26 = ViewBindings.findChildViewById(rootView, id);
+      if (textView26 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView27;
+      TextView textView27 = ViewBindings.findChildViewById(rootView, id);
+      if (textView27 == null) {
+        break missingId;
+      }
+
+      return new ActivityExercsieWithApartnerBinding((ScrollView) rootView, Day1, linearLayout2,
+          linearLayout3, linearLayout4, linearLayout5, partnerCard, textView10, textView15,
+          textView19, textView21, textView23, textView26, textView27);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
